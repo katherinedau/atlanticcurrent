@@ -14,7 +14,7 @@ markdown: kramdown
 encoding: utf-8
 
 # --STYLES--
-accent_color: rgba(18, 127, 157, 1)  # accent color can be any css accepted value
+accent_color: rgba(0, 71, 77, 1)  # accent color can be any css accepted value
 accent_font: Della Respira  # Gogle Fonts import link is in head.html. You can specify the accent font here and it will add it to the main.css
 
 # --SOCIAL--
@@ -27,7 +27,7 @@ map-credits: '<a target="_blank" href="https://github.com/kirschbombe/flaneur">F
 minZoom: 0
 maxZoom: 20
 setView: '[29.314210, -43.771430], 3'  # set map center point and zoom. See http://leafletjs.com/reference-1.2.0.html for more info.
-marker-grouping: grouped # sets the default clustering action. Options: grouped, single
+marker-grouping: single # sets the default clustering action. Options: grouped, single
 
 # Truncates map marker popup on small screens to only display post title
 window-height: 600
