@@ -2,7 +2,7 @@
 layout: post
 title: "La Cerollera, Teruel"
 date: 2016-06-02
-categories: ["Remedios" "Aragon"]
+categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 40.839942
 lng: -0.055752
