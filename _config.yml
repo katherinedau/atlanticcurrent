@@ -19,7 +19,7 @@ accent_font: Della Respira  # Gogle Fonts import link is in head.html. You can s
 
 # --SOCIAL--
 twitter_username: kirschbombe
-github_username:  kirschbombe
+github_username:  katherinedau
 
 # --MAP SETTINGS--
 map-tileset: 'https://api.mapbox.com/styles/v1/katherinedau/cjrv3thcl12ys1foicybduh0y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2F0aGVyaW5lZGF1IiwiYSI6ImNqcnYza2N1dzBpZWEzeXF1bjV2bTQ1NWsifQ.L_xVenACXMnWVlGNtnsxYA'
