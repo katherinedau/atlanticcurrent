@@ -4,8 +4,8 @@
 title: "The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios"
 email: dauk19@mail.wlu.edu
 description:
-baseurl: "/flaneur" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/atlanticcurrent" # the subpath of your site, e.g. /blog/
+url: "http://dauk19.wludci.info" # the base hostname & protocol for your site
 github_repo: https://github.com/kirschbombe/flaneur
 copyright_statement: © 2017 Dawn Childress. CC BY-NC-SA 4.0.
 
