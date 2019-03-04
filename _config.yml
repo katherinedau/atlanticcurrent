@@ -42,6 +42,13 @@ collections:
     title: Article Index
     output: true
     permalink: /article-index/:name/
+  places:
+    title: places
+    output: true
+    permalink: /places/:name
+    source: test2.csv
+    id_key: id
+    layout: post
 
 permalink: /:categories/:title/
 
