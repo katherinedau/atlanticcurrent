@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "San Sebastián de la Gomera, Tenerife"
+title: "San Sebastian de la Gomera, Tenerife, Canarias"
 date: 2019-02-11
 categories: ["Guadalupe"]
 author: "Katherine Dau"
