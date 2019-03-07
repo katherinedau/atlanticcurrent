@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/atlanticcurrent/css/main.css">
 
-    <link rel="canonical" href="http://localhost:4000/atlanticcurrent/">
+    <link rel="canonical" href="http://dauk19.wludci.info/atlanticcurrent/">
 
 
     <!-- Lightbox -->
@@ -490,6 +490,604 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Villar del...</strong>";
+      } else {
+      content = "<strong>Villar del Pedroso, Caceres, Extremadura</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/12.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/12.html";
+        article_url = '/atlanticcurrent/places/12.html';
+        item_id = "/places/12.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Valdelacasa de...</strong>";
+      } else {
+      content = "<strong>Valdelacasa de Tajo, Caceres, Extremadura</strong><br>no church to be found";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/11.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/11.html";
+        article_url = '/atlanticcurrent/places/11.html';
+        item_id = "/places/11.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.007352;
+      lng = -3.368509;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ubeda Andalucia...</strong>";
+      } else {
+      content = "<strong>Ubeda Andalucia Guad</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/3.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/3.html";
+        article_url = '/atlanticcurrent/places/3.html';
+        item_id = "/places/3.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Tagle, Cantabria...</strong>";
+      } else {
+      content = "<strong>Tagle, Cantabria</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/6.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/6.html";
+        article_url = '/atlanticcurrent/places/6.html';
+        item_id = "/places/6.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Mondariz-Balneario-Pontevedra-Galicia</strong>";
+      } else {
+      content = "<strong>Mondariz-Balneario-Pontevedra-Galicia</strong><br>church";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/15.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/15.html";
+        article_url = '/atlanticcurrent/places/15.html';
+        item_id = "/places/15.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Lebena (Cilorgio)*,...</strong>";
+      } else {
+      content = "<strong>Lebena (Cilorgio)*, Cantabria</strong><br>Iglesia de Santa Maria";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/5.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/5.html";
+        article_url = '/atlanticcurrent/places/5.html';
+        item_id = "/places/5.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Jaraiceco, Caceres,...</strong>";
+      } else {
+      content = "<strong>Jaraiceco, Caceres, Extremadura</strong><br>church????";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/10.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/10.html";
+        article_url = '/atlanticcurrent/places/10.html';
+        item_id = "/places/10.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Horcajo de...</strong>";
+      } else {
+      content = "<strong>Horcajo de los Montes, Ciudad Real, Castilla-La Mancha</strong><br>In August, the townspeople process the image of Guadalupe from her hermitage which lies outside of the city into the church. coordinates of Parroquia de San Antonio Abad";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/7.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/7.html";
+        article_url = '/atlanticcurrent/places/7.html';
+        item_id = "/places/7.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Murcia...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Murcia</strong><br>Parroquia de Nuestra Senora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/17.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/17.html";
+        article_url = '/atlanticcurrent/places/17.html';
+        item_id = "/places/17.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Torno...</strong>";
+      } else {
+      content = "<strong>El Torno</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/8.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/8.html";
+        article_url = '/atlanticcurrent/places/8.html';
+        item_id = "/places/8.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.65616;
+      lng = -5.656884;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Algar...</strong>";
+      } else {
+      content = "<strong>El Algar Andalucia Guad</strong><br>Parroquia de Santa María de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/2.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/2.html";
+        article_url = '/atlanticcurrent/places/2.html';
+        item_id = "/places/2.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Codeseda, Pontevedra,...</strong>";
+      } else {
+      content = "<strong>Codeseda, Pontevedra, Galicia</strong><br>Church of San Xurxo";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/14.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/14.html";
+        article_url = '/atlanticcurrent/places/14.html';
+        item_id = "/places/14.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = ;
+      lng = ;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Aldea del...</strong>";
+      } else {
+      content = "<strong>Aldea del Fresno, Madrid</strong><br>church";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/places/16.html"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/places/16.html";
+        article_url = '/atlanticcurrent/places/16.html';
+        item_id = "/places/16.html";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 36.718047;
       lng = -2.841931;
 
