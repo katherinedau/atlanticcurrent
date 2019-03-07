@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Codeseda-Pontevedra-Galicia
+title: Codeseda, Pontevedra, Galicia
 date: 2019-02-14
 categories: ["Guadalupe"]
 author: "Katherine Dau"
-Lat: '42.618443'
-Lng: "-8.437432"
-description: Church of San Xurxo
+Lat: 42.618443
+Lng: -8.437432
+desc: Church of San Xurxo
 permalink: "/places/14.html"
 ---
 
