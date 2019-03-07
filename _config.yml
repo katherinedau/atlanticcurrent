@@ -46,7 +46,7 @@ collections:
     title: places
     output: true
     permalink: /places/:name
-    source: test2.csv
+    source: guad3.csv
     id_key: id
     layout: post
 

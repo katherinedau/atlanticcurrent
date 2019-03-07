@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</title>
+    <meta name="description" content="">
+
+    <!-- Icons -->
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Della+Respira|Barlow:300|Lato|Lato:300|Montserrat" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <script type="text/javascript" src="/atlanticcurrent/assets/jquery/jquery-1.11.0.min.js"></script>
+
+    <script type="text/javascript" src="/atlanticcurrent/js/site.js"></script>
+
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="/atlanticcurrent/assets/leaflet-panel-layers/leaflet-panel-layers.min.css">
+    <script type="text/javascript" src="/atlanticcurrent/assets/leaflet-panel-layers/leaflet-panel-layers.min.js"></script>
+    <link rel="stylesheet" href="/atlanticcurrent/assets/leaflet-panel-layers/leaflet-panel-layers.src.css">
+    <script type="text/javascript" src="/atlanticcurrent/assets/leaflet-panel-layers/leaflet-panel-layers.src.js"></script>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.Default.css" />
+	<script src="https://unpkg.com/leaflet.markercluster@1.0.4/dist/leaflet.markercluster-src.js"></script>
+
+	<script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup-src.js"></script>
+
+	 <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/atlanticcurrent/css/main.css">
+
+    <link rel="canonical" href="http://localhost:4000/atlanticcurrent/">
+
+
+    <!-- Lightbox -->
+	  <link href="assets/lightbox2/lightbox.css" rel="stylesheet">
+	  <script src="assets/lightbox2/lightbox.js"></script>
+
+</head>
+
+
+  <body>
+
+  	<div class="sidebar">
+    	<div id="sidebar-content"></div>
+</div>
+
+  	   <script>
+  	    window.onload = function(){
+        if (localStorage['selectedtem'] != undefined){
+          new_map();
+        } else {
+		new_map('single');
+        }
+        reloadhtml();
+  	    };
+	      window.onhashchange = function() {
+        //new_map();
+	      reloadhtml();
+	      };
+  	    </script>
+
+    <div id="map"> </div>
+
+    <script>
+
+map = L.map('map' , {scrollWheelZoom: false}).setView([0, 0], 1);
+var markers = ''
+
+ window.change_map = function(){
+    localStorage.setItem('selectedtem', document.getElementById("choose").value);
+    new_map();
+}
+
+ function makeMap(markergrouping, map){
+ 	if (markergrouping == 'grouped') { markers = new L.markerClusterGroup({showCoverageOnHover: false});}
+	else if (markergrouping == 'single') { markers = new L.featureGroup();}
+ 	var items = {};
+
+      // set up variables to use during jekyll loop
+      var lat, lng, content, marker;
+          //map = L.map('map' , {scrollWheelZoom: false}).setView([0, 0], 1);
+          var map = map;
+
+      L.tileLayer('https://api.mapbox.com/styles/v1/katherinedau/cjrv3thcl12ys1foicybduh0y/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2F0aGVyaW5lZGF1IiwiYSI6ImNqcnYza2N1dzBpZWEzeXF1bjV2bTQ1NWsifQ.L_xVenACXMnWVlGNtnsxYA', {
+        "attribution" : '<a target="_blank" href="https://github.com/kirschbombe/flaneur">Flâneur</a> | Tiles: Mapbox',
+        "minZoom" : 0,
+        "maxZoom" : 20,
+        "errorTileUrl" : "img/error-tile-image.png",
+        "subdomains" : ["a", "b", "c", "d"],
+        "detectRetina" : true,
+      }).addTo(map);
+
+      // jekyll loop through posts
+var overLayers = [];
+var icons = [];
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_aqua.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_black.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_blue.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_green.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_orange.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_pink.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_plum.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_purple.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_red.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_rose.svg');
+    
+
+    
+        icons.push('/assets/leaflet/img/noun_33862_cc_teal.svg');
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+var counter = -1;
+var groups = {};
+
+
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
+      lat = 40.839942;
+      lng = -0.055752;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Zaragoza, Romanos...</strong>";
+      } else {
+      content = "<strong>Zaragoza, Romanos</strong><br>this is the map popup text";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-06-zaragoza-romanos"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-06-zaragoza-romanos";
+        article_url = '/atlanticcurrent/article/2019-02-06-zaragoza-romanos';
+        item_id = "/article/2019-02-06-zaragoza-romanos";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 40.839942;
+      lng = -0.055752;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>La Cerollera,...</strong>";
+      } else {
+      content = "<strong>La Cerollera, Teruel</strong><br>this is the map popup text";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-06-la-cerollera-teruel"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-06-la-cerollera-teruel";
+        article_url = '/atlanticcurrent/article/2019-02-06-la-cerollera-teruel';
+        item_id = "/article/2019-02-06-la-cerollera-teruel";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 42.011387;
+      lng = 0.25722;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Fonz, Huesca...</strong>";
+      } else {
+      content = "<strong>Fonz, Huesca</strong><br>this is the map popup text";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-06-fonz-huesca"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-06-fonz-huesca";
+        article_url = '/atlanticcurrent/article/2019-02-06-fonz-huesca';
+        item_id = "/article/2019-02-06-fonz-huesca";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 39.513308;
+      lng = -2.995553;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Toboso...</strong>";
+      } else {
+      content = "<strong>El Toboso</strong><br>this is the map popup text";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-06-el-toboso-rem"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-06-el-toboso-rem";
+        article_url = '/atlanticcurrent/article/2019-02-06-el-toboso-rem';
+        item_id = "/article/2019-02-06-el-toboso-rem";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Remedios';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Remedios';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
+      lat = 48.869219;
+      lng = 2.3322078999999576;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Boulevardier: The...</strong>";
+      } else {
+      content = "<strong>Boulevardier: The Cocktail</strong><br>Harry's New York Bar, a well-known bar in Paris, is said to be the birthplace of classic cocktails such as the Bloody Mary, French 75, Side Car and the Boulevardier.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2018-02-24-boulevardier"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2018-02-24-boulevardier";
+        article_url = '/atlanticcurrent/article/2018-02-24-boulevardier';
+        item_id = "/article/2018-02-24-boulevardier";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Cocktails';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Cocktails';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
+      lat = 28.126604;
+      lng = -17.104034;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>San Sebastián...</strong>";
+      } else {
+      content = "<strong>San Sebastián de la Gomera, Tenerife</strong><br>xx";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-san-sebastian-de-la-gomera-guad"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad";
+        article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad';
+        item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 42.653012;
+      lng = -8.817926;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Rianxo, A...</strong>";
+      } else {
+      content = "<strong>Rianxo, A Coruña</strong><br>Sanctuary to Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-rianxo-guad"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-rianxo-guad";
+        article_url = '/atlanticcurrent/article/2019-02-11-rianxo-guad';
+        item_id = "/article/2019-02-11-rianxo-guad";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 39.452384;
+      lng = -5.32732;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Cáceres...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Cáceres</strong><br>Royal Monastery Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-guadalupe-extrem"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-guadalupe-extrem";
+        article_url = '/atlanticcurrent/article/2019-02-11-guadalupe-extrem';
+        item_id = "/article/2019-02-11-guadalupe-extrem";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.365355;
+      lng = -1.797329;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Fuenterrabía, Guipúzcoa...</strong>";
+      } else {
+      content = "<strong>Fuenterrabía, Guipúzcoa</strong><br>this is the map popup text";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-fuenterrabia-guad"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-fuenterrabia-guad";
+        article_url = '/atlanticcurrent/article/2019-02-11-fuenterrabia-guad';
+        item_id = "/article/2019-02-11-fuenterrabia-guad";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Guadalupe';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Guadalupe';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+      // end loop through posts
+if (markergrouping == 'grouped') {
+	for (i = 0; i < overLayers.length; i++) {
+		control.addOverlay(overLayers[i]['layer'], overLayers[i]['name']);
+		control.addTo(map);
+		overLayers[i]['layer'].addTo(map);
+	}
+	control.addTo(map);
+} else if (markergrouping == 'single') {
+	var panelLayers = new L.Control.PanelLayers(null, overLayers, {
+		compact: true,
+		collapsed: true,
+		position: 'topleft'
+	});
+map.addControl(panelLayers);
+
+}
+
+map.setView([29.314210, -43.771430], 3)
+
+//map.fitBounds(markers.getBounds());
+return items;
+}
+</script>
+<div class="dropdown">
+ <button class="menu-button dropdown" onclick="dropdowntoggle()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+ 		<div class="dropdown-content sub-menu" onclick="dropdowntoggle()">
+ 		<div class="menu-links">
+ 		<a class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+ 		<a href="/atlanticcurrent/">Home</a>
+ 		
+ 		
+ 			<a href="/atlanticcurrent/#/article-index/" onclick="onClick('/article-index/')" class="menu-link">Browse Articles</a>
+		
+		
+ 		
+ 			<a href="/atlanticcurrent/#/credits/" onclick="onClick('/credits/')" class="menu-link">Credits</a>
+		
+		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+		</div>
+</div>
+</div>
+<script>
+function circletoggle() {
+  if ($('.circle-content').css("height") == '0px') {
+   $('.circle-content').css("height", '200px');
+   $('.circle-content').css("width", '200px');
+   $('.circle-content').css("opacity", '.95');
+   $('.menu-button').css("display", "none");
+   
+  } else {
+  	$('.circle-content').css("height", '0px');
+  	$('.circle-content').css("width", '0px');
+  	$('.circle-content').css("opacity", '0');
+  	$('.menu-button').css("display", "inline-block");
+  }
+}
+function dropdowntoggle() {
+  if ($('.dropdown-content').css("display") == 'none') {
+   $('.dropdown-content').css("display", 'block')
+  } else {
+  	$('.dropdown-content').css("display", 'none')
+  }
+}
+
+</script>
+<select id="choose" class="dropdown" onchange="change_map()">
+    <option value="grouped">Clustered</option>
+    <option value="single">Not clustered</option>
+</select>
+
+</body>
+</html>
