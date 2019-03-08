@@ -45,7 +45,6 @@ collections:
   places:
     title: places
     output: true
-    permalink: /places/:name
     source: remedios-test.csv
     id_key: id
     layout: post
