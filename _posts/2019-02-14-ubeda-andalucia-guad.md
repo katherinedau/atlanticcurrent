@@ -6,6 +6,5 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 38.007352
 lng: -3.368509
-permalink: "/places/3.html"
-desc: 
+desc:
 ---

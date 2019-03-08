@@ -6,6 +6,5 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 36.718047
 lng: -2.841931
-permalink: "/places/1.html"
 desc: The town of Matagorda celebrates its patron the Virgin of Guadalupe in the third week of June
 ---

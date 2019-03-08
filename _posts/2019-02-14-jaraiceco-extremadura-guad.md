@@ -7,5 +7,4 @@ author: "Katherine Dau"
 Lat: 39.666685
 Lng: -5.813173
 desc: church????
-permalink: "/places/10.html"
 ---
