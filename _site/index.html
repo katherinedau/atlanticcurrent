@@ -218,6 +218,604 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 37.543594;
+      lng = -4.316427;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Zuheros, Cordoba,...</strong>";
+      } else {
+      content = "<strong>Zuheros, Cordoba, Andalucia</strong><br>This image of Remedios may originate from the 13th century.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-zuheros-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-zuheros-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-zuheros-andalucia';
+        item_id = "/article/2019-03-09-zuheros-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.957659;
+      lng = -4.553482;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Villafranca de...</strong>";
+      } else {
+      content = "<strong>Villafranca de Cordoba, Cordoba, Andalucia</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-villafranca-de-cordoba-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-villafranca-de-cordoba-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-villafranca-de-cordoba-andalucia';
+        item_id = "/article/2019-03-09-villafranca-de-cordoba-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.680619;
+      lng = -5.444075;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ubrique, Cadiz,...</strong>";
+      } else {
+      content = "<strong>Ubrique, Cadiz, Andalucia</strong><br>Located in a Capuchin convent, this representation of the Virgin de los Remedios probably originates in the beginning of the 17th century.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-ubrique-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-ubrique-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-ubrique-andalucia';
+        item_id = "/article/2019-03-09-ubrique-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.341885;
+      lng = -2.512209;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Seron, Almeria,...</strong>";
+      } else {
+      content = "<strong>Seron, Almeria, Andalucia</strong><br>Seron honors its patron with a 19th century hermitage and plaza named after the Virgin.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-seron-almeria-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-seron-almeria-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-seron-almeria-andalucia';
+        item_id = "/article/2019-03-09-seron-almeria-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 41.132801;
+      lng = -1.269131;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Romanos, Zaragoza,...</strong>";
+      } else {
+      content = "<strong>Romanos, Zaragoza, Aragon</strong><br>On August 25 each year- the town processes to the hermitage of Remedios.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-romanos-aragon-rem"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-romanos-aragon-rem";
+        article_url = '/atlanticcurrent/article/2019-03-09-romanos-aragon-rem';
+        item_id = "/article/2019-03-09-romanos-aragon-rem";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.01652;
+      lng = -2.957084;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Paterna del...</strong>";
+      } else {
+      content = "<strong>Paterna del Rio, Almeria, Andalucia</strong><br>This ermita de los Remedios lies just under a kilometer outside the town of Paterna del Rio.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-paterna-del-rio-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-paterna-del-rio-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-paterna-del-rio-andalucia';
+        item_id = "/article/2019-03-09-paterna-del-rio-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.926608;
+      lng = -5.240636;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Olvera, Cadiz,...</strong>";
+      } else {
+      content = "<strong>Olvera, Cadiz, Andalucia</strong><br>Remedios is said to have rescued Olvera from drought in 1715.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-olvera-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-olvera-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-olvera-andalucia';
+        item_id = "/article/2019-03-09-olvera-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.418304;
+      lng = -4.588321;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Nava del...</strong>";
+      } else {
+      content = "<strong>Nava del Selpillar (Lucena)- Cordoba- Andalucia</strong><br>Although this small town posesses no church there is a confraternity of Los Remedios. The image iteslf is housed in nearby Lucena.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-nava-del-selpillar-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-nava-del-selpillar-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-nava-del-selpillar-andalucia';
+        item_id = "/article/2019-03-09-nava-del-selpillar-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.135423;
+      lng = -2.712094;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Dona Maria,...</strong>";
+      } else {
+      content = "<strong>Dona Maria, Almeria, Andalucia</strong><br>The town holds a festival to the Virgon de los Remedios and St. Teresa from October 12-15 each year.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-dona-maria-andalucia-rem"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-dona-maria-andalucia-rem";
+        article_url = '/atlanticcurrent/article/2019-03-09-dona-maria-andalucia-rem';
+        item_id = "/article/2019-03-09-dona-maria-andalucia-rem";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.420969;
+      lng = -6.148704;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Chiclana de...</strong>";
+      } else {
+      content = "<strong>Chiclana de la Frontera, Cadiz, Andalucia</strong><br>Housed in the Church of San Telmo, the icon of Remedios has a long history in Chiclana de la Frontera.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-chiclana-de-la-frontera-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-chiclana-de-la-frontera-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-chiclana-de-la-frontera-andalucia';
+        item_id = "/article/2019-03-09-chiclana-de-la-frontera-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.482188;
+      lng = -3.615737;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Campotejar, Granada,...</strong>";
+      } else {
+      content = "<strong>Campotejar, Granada, Andalucia</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-campotejar-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-campotejar-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-campotejar-andalucia';
+        item_id = "/article/2019-03-09-campotejar-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.277298;
+      lng = -5.20307;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Belmez, Cordoba,...</strong>";
+      } else {
+      content = "<strong>Belmez, Cordoba, Andalucia</strong><br>The current image of Remedios is a product of the twentieth century as the original was destroyed during the Spanish Civil War.";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-belmez-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-belmez-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-belmez-andalucia';
+        item_id = "/article/2019-03-09-belmez-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.163843;
+      lng = -3.661875;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ambroz (Vega...</strong>";
+      } else {
+      content = "<strong>Ambroz (Vega del Genil), Granada, Andalucia</strong><br>";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-ambroz-andalucia"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-ambroz-andalucia";
+        article_url = '/atlanticcurrent/article/2019-03-09-ambroz-andalucia';
+        item_id = "/article/2019-03-09-ambroz-andalucia";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 40.839942;
       lng = -0.055752;
 

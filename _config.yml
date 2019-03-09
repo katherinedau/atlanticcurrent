@@ -45,7 +45,7 @@ collections:
   places:
     title: places
     output: true
-    source: remedios-test.csv
+    source: remedios-test2.csv
     id_key: id
     layout: post
 
