@@ -13,12 +13,15 @@ The legend surrounding this incarnation of Guadalupe dates to the colonial era. 
 
 This small island holds a festival for their patron, nicknamed Morenita de Puntallana, in October. Their image of Guadalupe, which is about 25cm tall, was crowned on October 12, 1973.
 
-![Virgin of Guadalupe, Patron of la Gomera](Virgen_de_guadalupe,_patrona_de_la_gomera.jpg)
+![Virgin of Guadalupe, Patron of la Gomera](images/Virgen_de_guadalupe,_patrona_de_la_gomera.jpg)
    {:.image}
 [Photo via Wikimedia Commons](https://es.wikipedia.org/wiki/Archivo:Virgen_de_guadalupe,_patrona_de_la_gomera.jpg).
    {:.caption}
 
-https://commons.wikimedia.org/wiki/File:Ermita_de_guadalupe_en_puntallana,_la_gomera.jpg
+![Ermita de Guadalupe en Putallana](images/la-gomera-guad.jpg)
+   {:.image}
+[Photo via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ermita_de_guadalupe_en_puntallana,_la_gomera.jpg).
+   {:.caption}
 
 #### Works cited
 
