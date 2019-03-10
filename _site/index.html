@@ -1102,6 +1102,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 19.472305;
+      lng = -99.2517;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Naucalpan, Mexico...</strong>";
+      } else {
+      content = "<strong>Naucalpan, Mexico City, Mexico</strong><br>Basílica de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-10-naucalpan-rem"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-10-naucalpan-rem";
+        article_url = '/atlanticcurrent/article/2019-03-10-naucalpan-rem';
+        item_id = "/article/2019-03-10-naucalpan-rem";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 39.704779;
       lng = -5.194911;
 
@@ -1740,6 +1786,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
         article_url = '/atlanticcurrent/article/2019-02-14-el-matagorda-ejido-andalucia-guad';
         item_id = "/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 19.484808;
+      lng = -99.117862;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Tepeyac, Mexico...</strong>";
+      } else {
+      content = "<strong>Tepeyac, Mexico</strong><br>Basílica de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-10-tepeyac-guad"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad";
+        article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad';
+        item_id = "/article/2019-03-10-tepeyac-guad";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
