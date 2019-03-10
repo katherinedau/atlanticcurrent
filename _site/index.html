@@ -223,6 +223,10 @@ var icons = [];
 
     
 
+    
+
+    
+
 
 var counter = -1;
 var groups = {};
@@ -1087,73 +1091,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
-      lat = 48.869219;
-      lng = 2.3322078999999576;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Boulevardier: The...</strong>";
-      } else {
-      content = "<strong>Boulevardier: The Cocktail</strong><br>Harry's New York Bar, a well-known bar in Paris, is said to be the birthplace of classic cocktails such as the Bloody Mary, French 75, Side Car and the Boulevardier.";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2018-02-24-boulevardier"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2018-02-24-boulevardier";
-        article_url = '/atlanticcurrent/article/2018-02-24-boulevardier';
-        item_id = "/article/2018-02-24-boulevardier";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-
-    var imageurl = '<img class="legend" src="' + iconurl + '">'
-    if (markergrouping == 'grouped') {
-		map.addLayer(markers);
-		var name = imageurl + ' ' + 'Cocktails';
-		overLayers.push({"name":name, "layer":groups[counter]})
-	} else if (markergrouping == 'single') {
-	 var name = 'Cocktails';
-	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
-	}
- 
-counter += 1;
-
-
-var layers = [];
-if (markergrouping == 'grouped') {
-groups[counter] = L.featureGroup.subGroup(markers);
-var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
-}
-
-
       lat = 39.704779;
       lng = -5.194911;
 
@@ -1804,7 +1741,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Tepeyac, Mexico...</strong>";
       } else {
-      content = "<strong>Tepeyac, Mexico</strong><br>Basílica de Guadalupe";
+      content = "<strong>Tepeyac, Mexico City</strong><br>Basílica de Guadalupe";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
