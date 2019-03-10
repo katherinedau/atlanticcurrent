@@ -14,7 +14,6 @@ The people of Úbeda made Guadalupe their patron in 1615. They process the Virgi
 
 The current image of Guadalupe is not original. She was destroyed in a fire in 1936. She was subsequently replaced with a copy that is still revered today.
 
-
 ![Basílica de Santa María de los Reales Alcázares](guad_ubeda_andalucia_exterior.jpg)
    {:.image}
 [Photo via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Santa_Mar%C3%ADa_de_los_Reales_Alc%C3%A1zares,_%C3%9Abeda_(Spain).
