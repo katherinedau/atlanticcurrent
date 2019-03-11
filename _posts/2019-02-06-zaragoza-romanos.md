@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zaragoza, Romanos"
-date: 2016-06-02
+date: 2016-02-06
 categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 40.839942

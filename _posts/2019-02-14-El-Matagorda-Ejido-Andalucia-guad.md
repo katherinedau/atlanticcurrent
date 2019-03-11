@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matagorda-El Ejido, Almeria, Andalucia
-date: '2019-02-14'
+date: 2019-02-14
 categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 36.718047

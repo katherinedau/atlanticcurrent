@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Naucalpan, Mexico City, Mexico"
-date: 2019-03-09
+date: 2019-03-10
 categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 19.472305

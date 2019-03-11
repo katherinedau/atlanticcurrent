@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubeda, Jaen, Andalucia
-date: '2019-02-14'
+date: 2019-02-14
 categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 38.007352

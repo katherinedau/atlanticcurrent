@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fonz, Huesca"
-date: 2016-06-02
+date: 2016-02-06
 categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 42.011387

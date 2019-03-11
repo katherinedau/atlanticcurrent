@@ -1,7 +1,7 @@
 ---
 layout: post
 file: El Algar, Cadiz, Andalucia
-date: '2019-02-14'
+date: 2019-02-14
 categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 36.65616
