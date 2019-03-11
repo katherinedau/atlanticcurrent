@@ -6,7 +6,7 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 39.255351
 lng: -4.258006
-description: plaza of guadalupe
+desc: plaza of guadalupe
 ---
 
 #### Works Cited
