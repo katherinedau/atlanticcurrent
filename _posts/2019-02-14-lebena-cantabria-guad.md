@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lebena (Cilorgio)*, Cantabria
+title: Lebena (Cilorgio), Cantabria
 date: 2019-02-14
 categories: ["Guadalupe"]
 author: "Katherine Dau"

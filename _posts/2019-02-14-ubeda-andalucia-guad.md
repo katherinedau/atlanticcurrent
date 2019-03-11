@@ -1,6 +1,6 @@
 ---
 layout: post
-file: Ubeda, Jaen, Andalucia
+title: Ubeda, Jaen, Andalucia
 date: '2019-02-14'
 categories: ["Guadalupe"]
 author: "Katherine Dau"

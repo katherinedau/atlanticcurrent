@@ -1187,9 +1187,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -3.368509;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Ubeda Andalucia...</strong>";
+      content = "<strong>Ubeda, Jaen,...</strong>";
       } else {
-      content = "<strong>Ubeda Andalucia Guad</strong><br>Basílica de Santa María de los Reales Alcázares";
+      content = "<strong>Ubeda, Jaen, Andalucia</strong><br>Basílica de Santa María de los Reales Alcázares";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1325,9 +1325,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -4.590585;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Lebena (Cilorgio)*,...</strong>";
+      content = "<strong>Lebena (Cilorgio),...</strong>";
       } else {
-      content = "<strong>Lebena (Cilorgio)*, Cantabria</strong><br>Iglesia de Santa María de Lebeña";
+      content = "<strong>Lebena (Cilorgio), Cantabria</strong><br>Iglesia de Santa María de Lebeña";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1551,6 +1551,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
+      lat = 36.718047;
+      lng = -2.841931;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Matagorda-El Ejido,...</strong>";
+      } else {
+      content = "<strong>Matagorda-El Ejido, Almeria, Andalucia</strong><br>Iglesia de Nuestra Señora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-el-matagorda-ejido-andalucia-guad"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
+        article_url = '/atlanticcurrent/article/2019-02-14-el-matagorda-ejido-andalucia-guad';
+        item_id = "/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 36.65616;
       lng = -5.656884;
 
@@ -1683,52 +1729,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-14-aldea-del-fresno-madrid-guad";
         article_url = '/atlanticcurrent/article/2019-02-14-aldea-del-fresno-madrid-guad';
         item_id = "/article/2019-02-14-aldea-del-fresno-madrid-guad";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 36.718047;
-      lng = -2.841931;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Matagorda-El Ejido,...</strong>";
-      } else {
-      content = "<strong>Matagorda-El Ejido, Almeria, Andalucia</strong><br>Iglesia de Nuestra Señora de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-el-matagorda-ejido-andalucia-guad"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
-        article_url = '/atlanticcurrent/article/2019-02-14-el-matagorda-ejido-andalucia-guad';
-        item_id = "/article/2019-02-14-el-matagorda-ejido-andalucia-guad";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
