@@ -12,4 +12,4 @@ desc: "this is the map popup text"
 
 https://es.wikipedia.org/wiki/El_Toboso
 http://eltobosoparroquia.es/vestigios-esenciales/
-image included in gallery (81)
+image included in gallery 81
