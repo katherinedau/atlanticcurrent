@@ -37,7 +37,7 @@ window-width: 550
 collections:
   posts:
     output: true
-    permalink: /article/:name
+    permalink: /article/:name/
   article-index:
     title: Article Index
     output: true
