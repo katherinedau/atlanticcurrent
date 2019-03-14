@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Olvera, Cadiz, Andalucia</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Olvera, Cadiz, Andalucia." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . https://dauk19.wludci.info/article/2019-03-09-olvera-andalucia/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

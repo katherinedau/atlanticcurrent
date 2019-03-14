@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Guadalupe, Cáceres</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p class="image"><img src="images/guad-extrem3.jpg" alt="Virgin of Guadalupe" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Mb-guadalupe_extremadura.jpg">Photo from Wikimedia Commons</a></p>
+
+<p>The legend of the Virgin of Guadalupe in Extremadura begins in the early Christian era. She is said to have been sculpted by St. Luke and owned by Pope Gregory I. She was hidden in a cave during the Muslim invasion and only rediscovered in the 15th century. A faithful shepherd named Gil Cordero uncovered the image.</p>
+
+<p>Many <em>Conquistadors</em> such as Hernan Cortes came from Extremadura, and thus brought their devotion to this older Virgin of Guadalupe to the New World.</p>
+
+<p>From head to base, the Extremaduran virgin stands about twenty-three inches tall.  A rare glimpse underneath her vestments reveals she a dress and veil, carved and polychromed. Sculpted out of cedar, this Romanesque black virgin sits in the traditional “Throne of Wisdom” position with the Christ-child facing frontally on her lap. The Virgin of Child are depicted in a double enthronement. She is mature, regal, and powerful. The Christ-child conveys similar majesty, depicted as a miniature adult. Since at least 1389, the Virgin’s sculptural form has been obscured by sumptuous robes. The gift of these robes was seen as an important donation, and the Extremaduran Virgin acquired an extensive collection of robes.</p>
+
+<p class="image"><img src="images/guad-extrem.jpg" alt="Royal Monasterio de Guadalupe" /></p>
+<p class="caption">Photo taken by author July 2018.</p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>Peterson, Jeanette Favrot. <a href="https://mavcor.yale.edu/conversations/object-narratives/virgin-guadalupe-extremadura-spain">“The Virgin of Guadalupe, Extremadura, Spain.”</a> Object Narrative. In Conversations: An Online Journal of the Center for the Study of Material and Visual Cultures of Religion (2014). doi:10.22332/con.obj.2014.22.</li>
+  <li>Peterson, Jeanette Favrot. <em>Visualizing Guadalupe: from Black Madonna to Queen of the Americas</em> First edition. Austin: University of Texas Press, 2014.</li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Guadalupe, Cáceres." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . https://dauk19.wludci.info/article/2019-02-11-guadalupe-extrem/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

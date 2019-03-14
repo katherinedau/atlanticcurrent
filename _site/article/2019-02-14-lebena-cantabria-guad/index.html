@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header"></p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Lebena (Cilorgio), Cantabria</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p>I have found no information verifying a devotion to Guadalupe in this location.</p>
+
+<p class="image"><img src="images/guad_lebena.jpg" alt="Santa María de Lebeña" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Lebe%C3%B1a2.jpg">Photo via Wikimedia Commons</a>.</p>
+
+<h4 id="works-cited">Works Cited</h4>
+
+<ol class="bibliography">
+  <li>“Iglesia de Santa María (Lebeña)”, <a href="https://es.wikipedia.org/wiki/Iglesia_de_Santa_Mar%C3%ADa_(Lebe%C3%B1a)">Wikipedia</a>.</li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Lebena (Cilorgio), Cantabria." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . https://dauk19.wludci.info/article/2019-02-14-lebena-cantabria-guad/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

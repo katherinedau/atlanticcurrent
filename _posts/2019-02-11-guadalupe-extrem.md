@@ -29,5 +29,6 @@ Photo taken by author July 2018.
 #### Works cited
 
 {:.bibliography}
-1. Peterson, Jeanette Favrot. ["The Virgin of Guadalupe, Extremadura, Spain."](https://mavcor.yale.edu/conversations/object-narratives/virgin-guadalupe-extremadura-spain) Object Narrative. In Conversations: An Online Journal of the Center for the Study of Material and Visual Cultures of Religion (2014). doi:10.22332/con.obj.2014.22.
-2. Peterson, Jeanette Favrot. *Visualizing Guadalupe: from Black Madonna to Queen of the Americas* First edition. Austin: University of Texas Press, 2014.
+1. Hernández, Marie-Theresa. *The Virgin of Guadalupe and the Conversos: Uncovering Hidden Influences from Spain to Mexico.* New Brunswick: Rutgers University Press, 2014. 
+2. Peterson, Jeanette Favrot. ["The Virgin of Guadalupe, Extremadura, Spain."](https://mavcor.yale.edu/conversations/object-narratives/virgin-guadalupe-extremadura-spain) Object Narrative. In Conversations: An Online Journal of the Center for the Study of Material and Visual Cultures of Religion (2014). doi:10.22332/con.obj.2014.22.
+3. Peterson, Jeanette Favrot. *Visualizing Guadalupe: from Black Madonna to Queen of the Americas* First edition. Austin: University of Texas Press, 2014.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Tepeyac, Mexico City</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p class="image"><img src="images/guadalupe-mex.jpg" alt="Our Lady of Guadalupe" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Virgen_de_guadalupe1.jpg">Photo from Wikimedia Commons</a></p>
+<p>In 1531 the Virgin of Guadalupe appeared to a Nahua Christian named Juan Diego on Tepeyac hill. Speaking in his native Nahuatl, she asked Juan Diego to build her a church on the hill. Juan Diego relayed the message to the Bishop of New Spain, Juan de Zumarraga but he did not believe that Mary would appear to a recent convert. She appeared to him three more times. At the fourth apparition, she instructed Juan Diego to gather roses from Tepeyac hill into his cloak. When he opened his <em>tilma</em> to present these flowers, the bishop was amazed to see the image of the Virgin of Guadalupe imprinted on the cloak.</p>
+
+<p>The early history of Our Lady of Guadalupe remains enshrouded in mystery. Although she is often dated to 1531, her apparition myth was not recorded until 1648 by Miguel Sanchez. Because of this gap, many scholars doubt the 1531 dating, believing the Virgin of Guadalupe to have been painted by a Nahua artist Marcos Cipac around 1556/1556.</p>
+
+<p>Despite her titular connection to the <a href="">Virgin of Guadalupe in Extremadura</a>, this image exhibits no iconographic continuity. Jeanette Favrot Peterson discusses possible sources to this Mexican image in her article, <a href="http://www.jstor.org/stable/4490973">“Creating the Virgin of Guadalupe: The Cloth, the Artist, and Sources in Sixteenth-Century New Spain.”</a>.</p>
+
+<p class="image"><img src="images/guad-mex.jpg" alt="Basílica de Guadalupe" /></p>
+<p class="caption">Photo taken by author July 2018</p>
+
+<h4 id="works-cited">Works Cited</h4>
+
+<ol class="bibliography">
+  <li>Poole, Stafford, C.M. Our Lady of Guadalupe: <em>The Origins and Soruces of a Mexican National Symbol</em>, 1531-1797. Tucson: The University of Arizona Press, 1996.</li>
+  <li>Peterson, Jeanette Favrot. <a href="http://www.jstor.org/stable/4490973">“Creating the Virgin of Guadalupe: The Cloth, the Artist, and Sources in Sixteenth-Century New Spain.”</a> The Americas 61, no. 4 (2005): 571-610.</li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Tepeyac, Mexico City." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . https://dauk19.wludci.info/article/2019-03-10-tepeyac-guad/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

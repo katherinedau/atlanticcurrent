@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header"></p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">El Algar Andalucia Guad</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p>In 1773, Algar was founded as Santa María de Guadalupe by Domingo López de Carvajal, Vicomte de Carrión, and Marqués de Atalaya Bermeja. Domingo López de Carvajal pledged to found the town in honor of the Mexican Virgin of Guadalupe during a perilous journey between Spain and Mexico.</p>
+
+<p>Algar’s coat of arms represents the image of the Guadalupe standing on a green island.</p>
+
+<p class="image"><img src="images/algar-crest-guad.png" alt="The Coat of Arms of Algar" /></p>
+<p class="caption"><a href="https://en.wikipedia.org/wiki/Algar,_Andalusia">Photo via Wikipedia user SanchoPanzaXXI</a>.</p>
+
+<p>Algar celebrates it’s patron in September each year, processing her image on a blanket of salt.</p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Algar, Andalusia”, <a href="https://en.wikipedia.org/wiki/Algar,_Andalusia">Wikipedia</a>.</li>
+  <li><a href="https://www.algar.es/">Ayuntamiento de Algar</a></li>
+  <li><a href="https://www.algar.es/ocio/fiestas-patronales">Fiestas Patronales</a></li>
+  <li><a href="https://www.algar.es/turismo/historia">Historia</a></li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "El Algar Andalucia Guad." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . https://dauk19.wludci.info/article/2019-02-14-el-algar-andalucia-guad/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>
