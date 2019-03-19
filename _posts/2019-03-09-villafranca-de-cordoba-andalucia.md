@@ -20,6 +20,8 @@ The image diseapeared from her home during the Spanish Civil War. Don Juan Mart�
 
 Villafranca de Córdoba celebrates their patron from September 5-9 each year.
 
+#### Works cited
+
 {:.bibliography}
 1. "Villafranca de Córdoba," [Wikipedia](https://es.wikipedia.org/wiki/Villafranca_de_C%C3%B3rdoba).
 2. "Ntra Sra de los Remedios Coronada," [Villafranca de Cordoba](https://www.villafrancadecordoba.es/turismo/fiestas/virgen_de_los_remedios)

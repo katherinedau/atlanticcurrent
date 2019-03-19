@@ -13,6 +13,7 @@ Built in the 1569, the parish of los Remedios houses the icon of the Virgin of l
 
 The procession of the Virgin is held on August 15 each year.
 
+#### Works cited
 
 {:.bibliography}
 1. "Zuheros," [Wikipedia](https://es.wikipedia.org/wiki/Zuheros).

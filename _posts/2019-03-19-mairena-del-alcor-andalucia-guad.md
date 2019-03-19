@@ -13,7 +13,9 @@ The chapel of St. Sebastian, co-patron of Mairena del Alcor, was built in 15th c
 
 This incarnation of Remedios was canonically crowned in 1969, after being declared patron on September 8, 1991. Residents celebrate her on September 8.
 
-Although I cannot reproduce any here, there are many images available online. 
+Although I cannot reproduce any here, there are many images available online.
+
+#### Works cited
 
 {:.bibliography}
 1. "Mairena del Alcor", [Wikipedia](https://es.wikipedia.org/wiki/Mairena_del_Alcor).

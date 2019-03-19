@@ -18,6 +18,7 @@ Built in the early 17th century, this church dedicated to los Remedios is famous
 
 Residents celebrate *La Octava* on the third Sunday of May each year.  
 
+#### Works cited
 
 {:.bibliography}
 1. "Estepa", [Wikipedia](https://es.wikipedia.org/wiki/Estepa_(Sevilla)).
