@@ -27,5 +27,5 @@ This image was canonically coronated in 1966. She is celebrated on August 15.
 
 {:.bibliography}
 1. "Olvera", [Wikipedia](https://es.wikipedia.org/wiki/Olvera).
-2. "Convento de Capuchinos," [Ayuntamiento de Ubrique](http://www.ayuntamientoubrique.es/turismo/monumentos/415-convento-de-capuchinos.html)
-3. "la Virgen de los Remedios," [Radio Ubrique](https://actualidad.radioubrique.com/tag/virgen-de-los-remedios)
+2. "Santuario de Nuestra Señora de Los Remedios (Olvera)," [Cadizpedia](https://cadizpedia.wikanda.es/wiki/Santuario_de_Nuestra_Se%C3%B1ora_de_Los_Remedios_(Olvera))
+3. "Santuario de la Virgen de los Remedios en Olvera," [Sobre Cadiz](https://sobrecadiz.com/2009/12/17/santuario-de-la-virgen-de-los-remedios-en-olvera/)
