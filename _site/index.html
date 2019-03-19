@@ -239,6 +239,8 @@ var icons = [];
 
     
 
+    
+
 
 var counter = -1;
 var groups = {};
@@ -1036,52 +1038,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 40.839942;
-      lng = -0.055752;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Zaragoza, Romanos...</strong>";
-      } else {
-      content = "<strong>Zaragoza, Romanos</strong><br>this is the map popup text";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-06-zaragoza-romanos/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-06-zaragoza-romanos/";
-        article_url = '/atlanticcurrent/article/2019-02-06-zaragoza-romanos/';
-        item_id = "/article/2019-02-06-zaragoza-romanos/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 40.839767;
       lng = -0.054958;
 
@@ -1247,7 +1203,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Villar del...</strong>";
       } else {
-      content = "<strong>Villar del Pedroso, Caceres, Extremadura</strong><br>";
+      content = "<strong>Villar del Pedroso, Caceres, Extremadura</strong><br>Iglesia de San Pedro";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1429,9 +1385,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -8.470969;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Mondariz-Balneario-Pontevedra-Galicia</strong>";
+      content = "<strong>Mondariz Balneario,...</strong>";
       } else {
-      content = "<strong>Mondariz-Balneario-Pontevedra-Galicia</strong><br>church";
+      content = "<strong>Mondariz Balneario, Pontevedra, Galicia</strong><br>church";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1521,9 +1477,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -5.813173;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Jaraiceco, Caceres,...</strong>";
+      content = "<strong>Jaraicejo, Caceres,...</strong>";
       } else {
-      content = "<strong>Jaraiceco, Caceres, Extremadura</strong><br>church????";
+      content = "<strong>Jaraicejo, Caceres, Extremadura</strong><br>";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
