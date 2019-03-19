@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Mairena del Alcor, Sevilla, Andalucia</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p>The chapel of St. Sebastian, co-patron of Mairena del Alcor, was built in 15th century. The Capuchin friars of the Convent of Sevilla gave the image of Ntra. Sr. de los Remedios to the Duke of Arcos. In 1633, he gave the image to the hermitage in the city, and a brotherhood was founded in 1673. In 1936, the orignal image was destroyed in a fire.</p>
+
+<p>This incarnation of Remedios was canonically crowned in 1969, after being declared patron on September 8, 1991. Residents celebrate her on September 8.</p>
+
+<p>Although I cannot reproduce any here, there are many images available online.</p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Mairena del Alcor”, <a href="https://es.wikipedia.org/wiki/Mairena_del_Alcor">Wikipedia</a>.</li>
+  <li>“Real Hermandad de Ntra. Sra. de los Remedios Coronada, Patrona de Mairena del Alcor, y Matir San Sebastián,” <a href="http://patronademairenadelalcor.es/">Patrona de Mairenda del Alcor</a></li>
+  <li>“Historia de la Hermandad,” <a href="http://patronademairenadelalcor.es/la-hermandad/historia-de-la-hermandad">Patrona de Mairenda del Alcor</a></li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Mairena del Alcor, Sevilla, Andalucia." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/article/2019-03-19-mairena-del-alcor-andalucia-guad/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

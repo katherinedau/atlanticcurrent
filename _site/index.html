@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/atlanticcurrent/css/main.css">
 
-    <link rel="canonical" href="https://dauk19.wludci.info/atlanticcurrent/">
+    <link rel="canonical" href="http://localhost:4000/atlanticcurrent/">
 
 
     <!-- Lightbox -->
@@ -227,6 +227,18 @@ var icons = [];
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
 
 var counter = -1;
 var groups = {};
@@ -242,6 +254,98 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 37.374083;
+      lng = -5.750495;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Mairena del...</strong>";
+      } else {
+      content = "<strong>Mairena del Alcor, Sevilla, Andalucia</strong><br>Ermita de San Sebastián";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-19-mairena-del-alcor-andalucia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-19-mairena-del-alcor-andalucia-guad/";
+        article_url = '/atlanticcurrent/article/2019-03-19-mairena-del-alcor-andalucia-guad/';
+        item_id = "/article/2019-03-19-mairena-del-alcor-andalucia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.2884114;
+      lng = -4.8837179;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Estepa, Sevilla,...</strong>";
+      } else {
+      content = "<strong>Estepa, Sevilla, Andalucia</strong><br>Igelsia de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-19-estepa-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-19-estepa-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-19-estepa-andalucia-rem/';
+        item_id = "/article/2019-03-19-estepa-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 19.472305;
       lng = -99.2517;
 
@@ -294,7 +398,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Zuheros, Cordoba,...</strong>";
       } else {
-      content = "<strong>Zuheros, Cordoba, Andalucia</strong><br>This image of Remedios may originate from the 13th century.";
+      content = "<strong>Zuheros, Cordoba, Andalucia</strong><br>Parroquia Ntra. Sra de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -340,7 +444,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Villafranca de...</strong>";
       } else {
-      content = "<strong>Villafranca de Cordoba, Cordoba, Andalucia</strong><br>";
+      content = "<strong>Villafranca de Cordoba, Cordoba, Andalucia</strong><br>Ermita de la Virgen de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -386,7 +490,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Ubrique, Cadiz,...</strong>";
       } else {
-      content = "<strong>Ubrique, Cadiz, Andalucia</strong><br>Located in a Capuchin convent, this representation of the Virgin de los Remedios probably originates in the beginning of the 17th century.";
+      content = "<strong>Ubrique, Cadiz, Andalucia</strong><br>Convento de Capuchinos";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -432,7 +536,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Seron, Almeria,...</strong>";
       } else {
-      content = "<strong>Seron, Almeria, Andalucia</strong><br>Seron honors its patron with a 19th century hermitage and plaza named after the Virgin.";
+      content = "<strong>Seron, Almeria, Andalucia</strong><br>Ermita de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -478,7 +582,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Romanos, Zaragoza,...</strong>";
       } else {
-      content = "<strong>Romanos, Zaragoza, Aragon</strong><br>On August 25 each year, the town processes to the hermitage of Remedios.";
+      content = "<strong>Romanos, Zaragoza, Aragon</strong><br>Ermita de la Virgen de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -524,7 +628,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Paterna del...</strong>";
       } else {
-      content = "<strong>Paterna del Rio, Almeria, Andalucia</strong><br>This ermita de los Remedios lies just under a kilometer outside the town of Paterna del Rio.";
+      content = "<strong>Paterna del Rio, Almeria, Andalucia</strong><br>Ermita de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -570,7 +674,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Olvera, Cadiz,...</strong>";
       } else {
-      content = "<strong>Olvera, Cadiz, Andalucia</strong><br>Remedios is said to have rescued Olvera from drought in 1715.";
+      content = "<strong>Olvera, Cadiz, Andalucia</strong><br>Santuario de Ntra. Sra. de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -616,7 +720,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Nava del...</strong>";
       } else {
-      content = "<strong>Nava del Selpillar (Lucena)- Cordoba- Andalucia</strong><br>Although this small town possesses no church there is a confraternity of Los Remedios. The image itself is housed in nearby Lucena.";
+      content = "<strong>Nava del Selpillar (Lucena)- Cordoba- Andalucia</strong><br>";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -662,7 +766,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Dona Maria,...</strong>";
       } else {
-      content = "<strong>Dona Maria, Almeria, Andalucia</strong><br>The town holds a festival to the Virgon de los Remedios and St. Teresa from October 12-15 each year.";
+      content = "<strong>Dona Maria, Almeria, Andalucia</strong><br>Iglesia Parroquial de Santa Teresa";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -708,7 +812,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Chiclana de...</strong>";
       } else {
-      content = "<strong>Chiclana de la Frontera, Cadiz, Andalucia</strong><br>Housed in the Church of San Telmo, the icon of Remedios has a long history in Chiclana de la Frontera.";
+      content = "<strong>Chiclana de la Frontera, Cadiz, Andalucia</strong><br>Iglesia de San Telmo";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -800,7 +904,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Belmez, Cordoba,...</strong>";
       } else {
-      content = "<strong>Belmez, Cordoba, Andalucia</strong><br>The current image of Remedios is a product of the twentieth century as the original was destroyed during the Spanish Civil War.";
+      content = "<strong>Belmez, Cordoba, Andalucia</strong><br>Ermita de Ntra. Sra. de los Remedios";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -978,13 +1082,13 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 40.839942;
-      lng = -0.055752;
+      lat = 40.839767;
+      lng = -0.054958;
 
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>La Cerollera,...</strong>";
       } else {
-      content = "<strong>La Cerollera, Teruel</strong><br>this is the map popup text";
+      content = "<strong>La Cerollera, Teruel</strong><br>La Iglesia Parroquial de Nuestra Señora del Remedio";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1030,7 +1134,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Fonz, Huesca...</strong>";
       } else {
-      content = "<strong>Fonz, Huesca</strong><br>this is the map popup text";
+      content = "<strong>Fonz, Huesca</strong><br>Iglesia de Nuestra Señora de la Asunción";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
