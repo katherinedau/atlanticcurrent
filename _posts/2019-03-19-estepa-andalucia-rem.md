@@ -14,7 +14,7 @@ desc: Igelsia de Nuestra Señora de los Remedios
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Virgen_de_los_Remedios.gif)
    {:.caption}
 
-Built in the early 17th century, this church dedicated to los Remedios is famous for the *Camarín de la Virgin.* It was origianlly built as a hermitage to Veracruz. It is a historical heritage cite of Andalusia.
+Built in the early 17th century, this church dedicated to los Remedios is famous for the *Camarín de la Virgin.* It was originally built as a hermitage to Veracruz. It is a historical heritage cite of Andalusia.
 
 Residents celebrate *La Octava* on the third Sunday of May each year.  
 
