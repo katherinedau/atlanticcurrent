@@ -241,6 +241,16 @@ var icons = [];
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
 
 var counter = -1;
 var groups = {};
@@ -256,6 +266,190 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 36.595515;
+      lng = -4.638029;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Mijas, Malaga,...</strong>";
+      } else {
+      content = "<strong>Mijas, Malaga, Andalucia</strong><br>Ermita de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-21-mijas-andalucia/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-21-mijas-andalucia/";
+        article_url = '/atlanticcurrent/article/2019-03-21-mijas-andalucia/';
+        item_id = "/article/2019-03-21-mijas-andalucia/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.70922;
+      lng = -4.629344;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Cartama, Malaga,...</strong>";
+      } else {
+      content = "<strong>Cartama, Malaga, Andalucia</strong><br>Santuario de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-21-cartama-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-21-cartama-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-21-cartama-andalucia-rem/';
+        item_id = "/article/2019-03-21-cartama-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.019651;
+      lng = -4.562862;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Antequera, Malaga,...</strong>";
+      } else {
+      content = "<strong>Antequera, Malaga, Andalucia</strong><br>Iglesia de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-21-antequera-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-21-antequera-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-21-antequera-andalucia-rem/';
+        item_id = "/article/2019-03-21-antequera-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.781654;
+      lng = -4.09827;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Velez Malaga,...</strong>";
+      } else {
+      content = "<strong>Velez Malaga, Malaga, Andalucia</strong><br>Ermita de la Virgen de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-20-velez-malaga-andalucia/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-20-velez-malaga-andalucia/";
+        article_url = '/atlanticcurrent/article/2019-03-20-velez-malaga-andalucia/';
+        item_id = "/article/2019-03-20-velez-malaga-andalucia/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 37.374083;
       lng = -5.750495;
 
@@ -1707,9 +1901,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -5.656884;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>El Algar...</strong>";
+      content = "<strong>El Algar,...</strong>";
       } else {
-      content = "<strong>El Algar Andalucia Guad</strong><br>Parroquia de Santa María de Guadalupe";
+      content = "<strong>El Algar, Cadiz, Andalucia</strong><br>Parroquia de Santa María de Guadalupe";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -2068,6 +2262,10 @@ return items;
  		<a href="/atlanticcurrent/">Home</a>
  		
  		
+ 			<a href="/atlanticcurrent/#/about/" onclick="onClick('/about/')" class="menu-link">About</a>
+		
+		
+ 		
  			<a href="/atlanticcurrent/#/article-index/" onclick="onClick('/article-index/')" class="menu-link">Browse Articles</a>
 		
 		
@@ -2081,6 +2279,10 @@ return items;
  		
  		
  		
+ 		
+ 			<a href="/atlanticcurrent/#/methodology/" onclick="onClick('/methodology/')" class="menu-link">Methodology and Technical Notes</a>
+		
+		
 		</div>
 </div>
 </div>

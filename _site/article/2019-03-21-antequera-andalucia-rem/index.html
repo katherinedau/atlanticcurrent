@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Antequera, Malaga, Andalucia</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p class="image"><img src="images/rem-antequera.jpg" alt="Iglesia de Nuestra Señora de los Remedios" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Iglesia_de_los_Remedios.Coro.jpg">Photo from Wikimedia Commons</a></p>
+
+<p>This image of Remedios originates in the 16th century. She is sculpted from red pine and measures 66cm. Remedios became patron of the city in 1546. Remedios’ dressing room was built between 1700-1707. A brotherhood was founded in 1711.</p>
+
+<p>In 1649 and 1679, Our Lady supposedly rescued the people of Antequera from epidemics.</p>
+
+<p>Citizens celebrate the Virgin of los Remedios on September 8. She was canonically crowned on September 10, 1922.</p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Convent Stra. Sra. Remedios”, <a href="http://www.antequera.es/antequera/municipio/la-ciudad/patrimonio/arquitectura-religiosa/convento-ntra.-sra.-remedios.html">Antequera</a>.</li>
+  <li>“Devociones” <a href="www.patronadeantequera.com/devocion/devocion_ie.htm">Patrona de Antequera</a></li>
+  <li>“Virgen de los Remedios,” <a href="http://www.antequera.es/antequera/municipio/la-ciudad/fiestas-patronales/virgen-de-los-remedios.html">Antequera</a></li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Antequera, Malaga, Andalucia." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/article/2019-03-21-antequera-andalucia-rem/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

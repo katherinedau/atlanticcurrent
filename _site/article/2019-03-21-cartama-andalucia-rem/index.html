@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header">this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout</p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Cartama, Malaga, Andalucia</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p class="image"><img src="images/rem-cartama.jpg" alt="La Virgen de los Remedios" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Virgen_de_los_Remedios_C%C3%A1rtama.jpg">Photo from Wikimedia Commons</a></p>
+
+<p>The current chapel of Remedios replaced a 15th century hermitage. The Virgin supposedly appeared after Ferdinand conquered the town in 1485. The current structure was built in the 17th century.  In 2007, the town established a Museum of Our Lady of Remedies Crowned. This museum holds several dresses belonging to the Virgin. Many of these were made in America and donated to the Virgin.</p>
+
+<p>Citizens celebrate the Virgin of los Remedios in April, when she is processed into the city, where she remains until June. She was canonically crowned on April 28, 2002.</p>
+
+<p class="image"><img src="images/rem-cartama2.jpg" alt="La Ermita de Nuestra Señora de los Remedios" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Ermita-cartama.jpg">Photo from Wikimedia Commons</a></p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Cártama”, <a href="https://en.wikipedia.org/wiki/C%C3%A1rtama">Wikipedia</a>.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>“Tradiciones,” [Cartama](http://www.cartama.es/3859/tradiciones#googtrans(es</td>
+          <td>en))</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>“Turismo,” <a href="http://www.cartama.es3902/turismo">Cartama</a></li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Cartama, Malaga, Andalucia." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/article/2019-03-21-cartama-andalucia-rem/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>
