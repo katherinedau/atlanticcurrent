@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Oca%C3%B1a, Toledo, Castilla-La Mancha
+title: Ocana, Toledo, Castilla-La Mancha
 date: 2019-03-30
-categories: ["Remedios"]
+categories: ["Major Remedios Site"]
 author: "Katherine Dau"
 lat: 39.960404
 lng: -3.500358

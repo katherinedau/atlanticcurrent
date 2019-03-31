@@ -138,6 +138,8 @@ var icons = [];
     
 
     
+
+    
         icons.push('/assets/leaflet/img/noun_33862_cc_aqua.svg');
     
 
@@ -274,98 +276,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
-      lat = 39.960404;
-      lng = -3.500358;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Oca%C3%B1a, Toledo,...</strong>";
-      } else {
-      content = "<strong>Oca%C3%B1a, Toledo, Castilla-La Mancha</strong><br>Ermita de los Remedios in la Iglesia de San Juan Bautista";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-30-ocana-clm-rem/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-30-ocana-clm-rem/";
-        article_url = '/atlanticcurrent/article/2019-03-30-ocana-clm-rem/';
-        item_id = "/article/2019-03-30-ocana-clm-rem/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 38.228103;
-      lng = -6.635637;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Fregenal de...</strong>";
-      } else {
-      content = "<strong>Fregenal de la Sierra, Badajoz, Extremadura</strong><br>Santuario de la Virgen de los Remedios";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-30-frenegal-de-la-sierra/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-30-frenegal-de-la-sierra/";
-        article_url = '/atlanticcurrent/article/2019-03-30-frenegal-de-la-sierra/';
-        item_id = "/article/2019-03-30-frenegal-de-la-sierra/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 36.595515;
       lng = -4.638029;
 
@@ -550,52 +460,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 37.374083;
-      lng = -5.750495;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Mairena del...</strong>";
-      } else {
-      content = "<strong>Mairena del Alcor, Sevilla, Andalucia</strong><br>Ermita de San Sebastián";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-19-mairena-del-alcor-andalucia-rem/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-19-mairena-del-alcor-andalucia-rem/";
-        article_url = '/atlanticcurrent/article/2019-03-19-mairena-del-alcor-andalucia-rem/';
-        item_id = "/article/2019-03-19-mairena-del-alcor-andalucia-rem/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 37.2884114;
       lng = -4.8837179;
 
@@ -636,52 +500,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-03-19-estepa-andalucia-rem/";
         article_url = '/atlanticcurrent/article/2019-03-19-estepa-andalucia-rem/';
         item_id = "/article/2019-03-19-estepa-andalucia-rem/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 19.472305;
-      lng = -99.2517;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Naucalpan, Mexico...</strong>";
-      } else {
-      content = "<strong>Naucalpan, Mexico City, Mexico</strong><br>Basílica de Nuestra Señora de los Remedios";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-10-naucalpan-rem/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-10-naucalpan-rem/";
-        article_url = '/atlanticcurrent/article/2019-03-10-naucalpan-rem/';
-        item_id = "/article/2019-03-10-naucalpan-rem/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
@@ -1102,52 +920,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 36.420969;
-      lng = -6.148704;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Chiclana de...</strong>";
-      } else {
-      content = "<strong>Chiclana de la Frontera, Cadiz, Andalucia</strong><br>Iglesia de San Telmo";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-09-chiclana-de-la-frontera-andalucia/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-09-chiclana-de-la-frontera-andalucia/";
-        article_url = '/atlanticcurrent/article/2019-03-09-chiclana-de-la-frontera-andalucia/';
-        item_id = "/article/2019-03-09-chiclana-de-la-frontera-andalucia/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 37.482188;
       lng = -3.615737;
 
@@ -1445,52 +1217,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
-      lat = 19.484808;
-      lng = -99.117862;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Tepeyac, Mexico...</strong>";
-      } else {
-      content = "<strong>Tepeyac, Mexico City</strong><br>Basílica de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-10-tepeyac-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad/";
-        article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad/';
-        item_id = "/article/2019-03-10-tepeyac-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 39.704779;
       lng = -5.194911;
 
@@ -1997,52 +1723,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 36.65616;
-      lng = -5.656884;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>El Algar,...</strong>";
-      } else {
-      content = "<strong>El Algar, Cadiz, Andalucia</strong><br>Parroquia de Santa María de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-el-algar-andalucia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-el-algar-andalucia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-el-algar-andalucia-guad/';
-        item_id = "/article/2019-02-14-el-algar-andalucia-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 42.618443;
       lng = -8.437432;
 
@@ -2129,52 +1809,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-14-aldea-del-fresno-madrid-guad/";
         article_url = '/atlanticcurrent/article/2019-02-14-aldea-del-fresno-madrid-guad/';
         item_id = "/article/2019-02-14-aldea-del-fresno-madrid-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 28.126604;
-      lng = -17.104034;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>San Sebastian...</strong>";
-      } else {
-      content = "<strong>San Sebastian de la Gomera, Tenerife, Canarias</strong><br>Ermita de Nuestra Señora de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad/';
-        item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
@@ -2327,6 +1961,416 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 		overLayers.push({"name":name, "layer":groups[counter]})
 	} else if (markergrouping == 'single') {
 	 var name = 'Guadalupe';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
+      lat = 19.484808;
+      lng = -99.117862;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Tepeyac, Mexico...</strong>";
+      } else {
+      content = "<strong>Tepeyac, Mexico City</strong><br>Basílica de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-10-tepeyac-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad/";
+        article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad/';
+        item_id = "/article/2019-03-10-tepeyac-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.65616;
+      lng = -5.656884;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Algar,...</strong>";
+      } else {
+      content = "<strong>El Algar, Cadiz, Andalucia</strong><br>Parroquia de Santa María de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-el-algar-andalucia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-el-algar-andalucia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-el-algar-andalucia-guad/';
+        item_id = "/article/2019-02-14-el-algar-andalucia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 28.126604;
+      lng = -17.104034;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>San Sebastian...</strong>";
+      } else {
+      content = "<strong>San Sebastian de la Gomera, Tenerife, Canarias</strong><br>Ermita de Nuestra Señora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad/';
+        item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Major Guadalupe Site';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Major Guadalupe Site';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
+      lat = 39.960404;
+      lng = -3.500358;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ocana, Toledo,...</strong>";
+      } else {
+      content = "<strong>Ocana, Toledo, Castilla-La Mancha</strong><br>Ermita de los Remedios in la Iglesia de San Juan Bautista";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-30-ocana-clm-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-30-ocana-clm-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-30-ocana-clm-rem/';
+        item_id = "/article/2019-03-30-ocana-clm-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.228103;
+      lng = -6.635637;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Fregenal de...</strong>";
+      } else {
+      content = "<strong>Fregenal de la Sierra, Badajoz, Extremadura</strong><br>Santuario de la Virgen de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-30-frenegal-de-la-sierra/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-30-frenegal-de-la-sierra/";
+        article_url = '/atlanticcurrent/article/2019-03-30-frenegal-de-la-sierra/';
+        item_id = "/article/2019-03-30-frenegal-de-la-sierra/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.374083;
+      lng = -5.750495;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Mairena del...</strong>";
+      } else {
+      content = "<strong>Mairena del Alcor, Sevilla, Andalucia</strong><br>Ermita de San Sebastián";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-19-mairena-del-alcor-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-19-mairena-del-alcor-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-19-mairena-del-alcor-andalucia-rem/';
+        item_id = "/article/2019-03-19-mairena-del-alcor-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 19.472305;
+      lng = -99.2517;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Naucalpan, Mexico...</strong>";
+      } else {
+      content = "<strong>Naucalpan, Mexico City, Mexico</strong><br>Basílica de Nuestra Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-10-naucalpan-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-10-naucalpan-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-10-naucalpan-rem/';
+        item_id = "/article/2019-03-10-naucalpan-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.420969;
+      lng = -6.148704;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Chiclana de...</strong>";
+      } else {
+      content = "<strong>Chiclana de la Frontera, Cadiz, Andalucia</strong><br>Iglesia de San Telmo";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-09-chiclana-de-la-frontera-andalucia/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-09-chiclana-de-la-frontera-andalucia/";
+        article_url = '/atlanticcurrent/article/2019-03-09-chiclana-de-la-frontera-andalucia/';
+        item_id = "/article/2019-03-09-chiclana-de-la-frontera-andalucia/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Major Remedios Site';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Major Remedios Site';
 	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
 	}
  

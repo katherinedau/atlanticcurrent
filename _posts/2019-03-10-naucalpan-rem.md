@@ -2,7 +2,7 @@
 layout: post
 title: "Naucalpan, Mexico City, Mexico"
 date: 2019-03-10
-categories: ["Remedios"]
+categories: ["Major Remedios Site"]
 author: "Katherine Dau"
 lat: 19.472305
 lng: -99.251700

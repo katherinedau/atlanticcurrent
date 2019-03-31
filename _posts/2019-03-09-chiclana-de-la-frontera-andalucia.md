@@ -2,7 +2,7 @@
 layout: post
 title: Chiclana de la Frontera, Cadiz, Andalucia
 date: 2019-03-09
-categories: ["Remedios"]
+categories: ["Major Remedios Site"]
 author: "Katherine Dau"
 lat: 36.420969
 lng: -6.148704

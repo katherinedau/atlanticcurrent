@@ -21,4 +21,4 @@ This project was born out of my Honors Thesis in Art History, also titled *The A
 
 #### Icons
 * _Map Marker_ icon created by Berkay Sargin from the Noun Project
-* _north_ by Lluisa Iborra from the Noun Project
+* _Our Lady of Guadalupe_ from the first page of the Huei Tlamahuiçoltica by Luis Lasso de la Vega, 1649. Taken from [Wikimedia Commons](https://en.wikipedia.org/wiki/Huei_tlamahui%C3%A7oltica#/media/File:Luis_Lasso_de_la_Vega_-_Nican_Mopohua_Hvei_tlamahv%C3%A7oltica_amonexiti_in_ilhvicac_tlatoca_%C3%A7ihvapilli_Santa_Mar%C3%ADa_Totla%C3%A7onantizn_1649.jpg)

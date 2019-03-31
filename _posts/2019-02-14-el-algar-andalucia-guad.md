@@ -2,7 +2,7 @@
 layout: post
 title: El Algar, Cadiz, Andalucia
 date: 2019-02-14
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 36.65616
 lng: -5.656884

@@ -2,7 +2,7 @@
 layout: post
 title: "San Sebastian de la Gomera, Tenerife, Canarias"
 date: 2019-02-11
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 28.126604
 lng: -17.104034

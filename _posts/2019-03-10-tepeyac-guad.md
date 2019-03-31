@@ -2,7 +2,7 @@
 layout: post
 title: "Tepeyac, Mexico City"
 date: 2019-03-10
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 19.484808
 lng: -99.117862

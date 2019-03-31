@@ -2,7 +2,7 @@
 layout: post
 title: Fregenal de la Sierra, Badajoz, Extremadura
 date: 2019-03-30
-categories: ["Remedios"]
+categories: ["Major Remedios Site"]
 author: "Katherine Dau"
 lat: 38.228103
 lng: -6.635637

@@ -2,7 +2,7 @@
 layout: post
 title: Mairena del Alcor, Sevilla, Andalucia
 date: 2019-03-19
-categories: ["Remedios"]
+categories: ["Major Remedios Site"]
 author: "Katherine Dau"
 lat: 37.374083
 lng: -5.750495
