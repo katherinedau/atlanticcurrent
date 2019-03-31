@@ -1058,9 +1058,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = -2.995553;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>El Toboso...</strong>";
+      content = "<strong>El Toboso,...</strong>";
       } else {
-      content = "<strong>El Toboso</strong><br>this is the map popup text";
+      content = "<strong>El Toboso, Toledo, Castile-La Mancha</strong><br>Parroquia San Antonio Abad";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1150,9 +1150,9 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       lng = 0.25722;
 
       if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Fonz, Huesca...</strong>";
+      content = "<strong>Fonz, Huesca,...</strong>";
       } else {
-      content = "<strong>Fonz, Huesca</strong><br>Iglesia de Nuestra Señora de la Asunción";
+      content = "<strong>Fonz, Huesca, Aragon</strong><br>Iglesia de Nuestra Señora de la Asunción (unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1403,7 +1403,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Mondariz Balneario,...</strong>";
       } else {
-      content = "<strong>Mondariz Balneario, Pontevedra, Galicia</strong><br>church";
+      content = "<strong>Mondariz Balneario, Pontevedra, Galicia</strong><br>unverified";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1449,7 +1449,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Lebena (Cilorgio),...</strong>";
       } else {
-      content = "<strong>Lebena (Cilorgio), Cantabria</strong><br>Iglesia de Santa María de Lebeña";
+      content = "<strong>Lebena (Cilorgio), Cantabria</strong><br>Iglesia de Santa María de Lebeña (unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1495,7 +1495,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Jaraicejo, Caceres,...</strong>";
       } else {
-      content = "<strong>Jaraicejo, Caceres, Extremadura</strong><br>";
+      content = "<strong>Jaraicejo, Caceres, Extremadura</strong><br>(unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1575,52 +1575,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-14-horcajo-de-los-montes-castilla-la-mancha-guad/";
         article_url = '/atlanticcurrent/article/2019-02-14-horcajo-de-los-montes-castilla-la-mancha-guad/';
         item_id = "/article/2019-02-14-horcajo-de-los-montes-castilla-la-mancha-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 37.99801;
-      lng = -1.169033;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Guadalupe, Murcia...</strong>";
-      } else {
-      content = "<strong>Guadalupe, Murcia</strong><br>Parroquia de Nuestra Senora de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-guadalupe-murcia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-guadalupe-murcia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-guadalupe-murcia-guad/';
-        item_id = "/article/2019-02-14-guadalupe-murcia-guad/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
@@ -1857,52 +1811,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 39.452384;
-      lng = -5.32732;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Guadalupe, Cáceres...</strong>";
-      } else {
-      content = "<strong>Guadalupe, Cáceres</strong><br>Royal Monasterio de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-11-guadalupe-extrem/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-11-guadalupe-extrem/";
-        article_url = '/atlanticcurrent/article/2019-02-11-guadalupe-extrem/';
-        item_id = "/article/2019-02-11-guadalupe-extrem/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
       lat = 43.365355;
       lng = -1.797329;
 
@@ -2016,6 +1924,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
+      lat = 37.99801;
+      lng = -1.169033;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Murcia...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Murcia</strong><br>Parroquia de Nuestra Senora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-guadalupe-murcia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-guadalupe-murcia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-guadalupe-murcia-guad/';
+        item_id = "/article/2019-02-14-guadalupe-murcia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 36.65616;
       lng = -5.656884;
 
@@ -2102,6 +2056,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
         article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad/';
         item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 39.452384;
+      lng = -5.32732;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Cáceres,...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Cáceres, Extremadura</strong><br>Royal Monasterio de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-guadalupe-extrem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-guadalupe-extrem/";
+        article_url = '/atlanticcurrent/article/2019-02-11-guadalupe-extrem/';
+        item_id = "/article/2019-02-11-guadalupe-extrem/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 

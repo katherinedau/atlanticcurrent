@@ -6,7 +6,7 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 43.215367
 lng: -4.590585
-desc: Iglesia de Santa María de Lebeña
+desc: Iglesia de Santa María de Lebeña (unverified)
 ---
 
 I have found no information verifying a devotion to Guadalupe in this location.

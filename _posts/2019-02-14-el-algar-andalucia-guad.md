@@ -19,7 +19,7 @@ Algar's coat of arms represents the image of the Guadalupe standing on a green i
    {:.caption}
 
 Algar celebrates it's patron in September each year, processing her image on a blanket of salt.
-
+#### Verified
 #### Works cited
 
 {:.bibliography}

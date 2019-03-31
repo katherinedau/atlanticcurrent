@@ -2,7 +2,7 @@
 layout: post
 title: Guadalupe, Murcia
 date: 2019-02-14
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 37.99801
 lng: -1.169033
@@ -17,7 +17,7 @@ As they were the keepers of the Royal Monastery of Guadalupe in Extremadura, it 
    {:.caption}
 
 Today, the town celebrates its patron in July.
-
+#### Verified
 #### Works cited
 
 {:.bibliography}

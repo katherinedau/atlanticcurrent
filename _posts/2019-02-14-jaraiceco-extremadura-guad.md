@@ -6,8 +6,9 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 39.666685
 lng: -5.813173
-desc:
+desc: (unverified)
 ---
+#### Unverified
 Jaraicejo lies on the pilgrimage route to Guadalupe. There is no information to confirm the patronage of Guadalupe here.
 
 #### Works cited

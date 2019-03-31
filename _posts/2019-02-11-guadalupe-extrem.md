@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Guadalupe, Cáceres"
+title: "Guadalupe, Cáceres, Extremadura"
 date: 2019-02-11
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 39.452384
 lng: -5.327320
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Royal Monasterio de Guadalupe
 ---
-
+#### Verified
 ![Virgin of Guadalupe](images/guad-extrem3.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mb-guadalupe_extremadura.jpg)
@@ -29,6 +28,6 @@ Photo taken by author July 2018.
 #### Works cited
 
 {:.bibliography}
-1. Hernández, Marie-Theresa. *The Virgin of Guadalupe and the Conversos: Uncovering Hidden Influences from Spain to Mexico.* New Brunswick: Rutgers University Press, 2014. 
+1. Hernández, Marie-Theresa. *The Virgin of Guadalupe and the Conversos: Uncovering Hidden Influences from Spain to Mexico.* New Brunswick: Rutgers University Press, 2014.
 2. Peterson, Jeanette Favrot. ["The Virgin of Guadalupe, Extremadura, Spain."](https://mavcor.yale.edu/conversations/object-narratives/virgin-guadalupe-extremadura-spain) Object Narrative. In Conversations: An Online Journal of the Center for the Study of Material and Visual Cultures of Religion (2014). doi:10.22332/con.obj.2014.22.
 3. Peterson, Jeanette Favrot. *Visualizing Guadalupe: from Black Madonna to Queen of the Americas* First edition. Austin: University of Texas Press, 2014.

@@ -6,7 +6,6 @@ categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 28.126604
 lng: -17.104034
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Ermita de Nuestra Señora de Guadalupe
 ---
 The legend surrounding this incarnation of Guadalupe dates to the colonial era. La Gomera lay on the early route to the New World. Sailors, likely Extremadurans, noticed lights on the island of La Gomera as they passed. When they investigated these strange lights, they found an image of the Virgin and Child on a bush. They tried to take her with them but could not navigate. Realizing her power, they returned her to the site where she was found and built a hermitage for her. The Count of la Gomera, Guillén Peraza de Ayala y Bobadilla, supposedly funded the construction of this hermitage and named it after Guadalupe due to his ties to the Royal Monastery in Extremadura. The cult is dated to the 16th Century.  

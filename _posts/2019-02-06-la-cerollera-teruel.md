@@ -6,9 +6,9 @@ categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 40.839767
 lng: -0.054958
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: La Iglesia Parroquial de Nuestra Señora del Remedio
 ---
+#### Verified
 The Church of los Remedios was built in the baroque style in the 18th century by architect Antonio Moreno. During the Civil War, all altarpieces were destroyed.
 
 #### Works cited

@@ -10,7 +10,7 @@ desc: Ermita de Guadalupe
 ---
 Tagle celebrates it's patron in early September, culminating on September 8. Inside the main church, there is a large painting of the Mexican Virgin of Guadalupe.
 
-
+#### Verified
 #### Works Cited
 
 {:.bibliography}
