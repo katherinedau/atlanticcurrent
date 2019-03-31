@@ -27,4 +27,4 @@ The image resides in the chapel of los Remedios in the Church of St. John the Ba
 
 {:.bibliography}
 1. "Virgen de los Remedios," [Wikipedia](https://es.wikipedia.org/wiki/Virgen_de_los_Remedios#Imagen_de_Nuestra_Se%C3%B1ora_Virgen_de_los_Remedios_de_Oca%C3%B1a_(Toledo))
-2. "Historia"[Ayuntamiento Ocaña](http://ocana.es/turismo/historia).
+2. "Historia," [Ayuntamiento Ocaña](http://ocana.es/turismo/historia).

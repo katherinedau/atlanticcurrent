@@ -255,6 +255,10 @@ var icons = [];
 
     
 
+    
+
+    
+
 
 var counter = -1;
 var groups = {};
@@ -310,6 +314,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-03-30-ocana-clm-rem/";
         article_url = '/atlanticcurrent/article/2019-03-30-ocana-clm-rem/';
         item_id = "/article/2019-03-30-ocana-clm-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.228103;
+      lng = -6.635637;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Fregenal de...</strong>";
+      } else {
+      content = "<strong>Fregenal de la Sierra, Badajoz, Extremadura</strong><br>Santuario de la Virgen de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-30-frenegal-de-la-sierra/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-30-frenegal-de-la-sierra/";
+        article_url = '/atlanticcurrent/article/2019-03-30-frenegal-de-la-sierra/';
+        item_id = "/article/2019-03-30-frenegal-de-la-sierra/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
