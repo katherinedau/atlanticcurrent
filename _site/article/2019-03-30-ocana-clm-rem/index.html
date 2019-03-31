@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header"></p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Oca%C3%B1a, Toledo, Castilla-La Mancha</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <p class="image"><img src="images/ocana-rem.jpg" alt="Nuestra Señora Virgen de los Remedios de Ocaña" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_Virgen_de_los_Remedios_de_Oca%C3%B1a_(Toledo).jpg">Photo from Wikimedia Commons</a></p>
+
+<p>The Virgin of los Remedios of Ocaña has one of the largest follows of Remedios in Spain. The original image was destroyed on November 10, 1936. She was crowned on June 11, 1961.</p>
+
+<p>The image resides in the chapel of los Remedios in the Church of St. John the Baptist in the town. It likely originates in the 13th century, but underwent reconstruction in the 16th. The people of Ocaña celebrate the Virgin from September 7-11.</p>
+
+<p class="image"><img src="images/ocana-rem2.png" alt="Iglesia Parroquial San Juan Bautista Ocaña" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Iglesia_Parroquial_San_Juan_Bautista_Oca%C3%B1a.png">Photo from Wikimedia Commons</a></p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Virgen de los Remedios,” <a href="https://es.wikipedia.org/wiki/Virgen_de_los_Remedios#Imagen_de_Nuestra_Se%C3%B1ora_Virgen_de_los_Remedios_de_Oca%C3%B1a_(Toledo)">Wikipedia</a></li>
+  <li>“Historia”<a href="http://ocana.es/turismo/historia">Ayuntamiento Ocaña</a>.</li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Oca%C3%B1a, Toledo, Castilla-La Mancha." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/article/2019-03-30-ocana-clm-rem/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>
