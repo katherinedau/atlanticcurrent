@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nava del Selpillar (Lucena)- Cordoba- Andalucia
+title: Nava del Selpillar (Lucena), Cordoba, Andalucia
 date: 2019-03-09
 categories: ["Remedios"]
 author: "Katherine Dau"
