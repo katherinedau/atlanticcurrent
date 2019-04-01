@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header"></p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Montefrio, Granada, Andalucia</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <h4 id="verified">Verified</h4>
+<p>The image of Remedios stands on a silver crescent moon in a marble tabernacle-niche inside of the church. This image is on the left of the church when facing the altar. During the civil war, she was hidden in the nearby convent.</p>
+
+<p>The church of Incarnation was constructed in the 18th century by architect Ventura Rodríguez.</p>
+
+<h4 class="bibliography" id="works-cited">Works cited</h4>
+<ol>
+  <li>“Iglesia de la Encarnacion (Montefrio),” <a href="https://granadapedia.wikanda.es/wiki/Iglesia_de_la_Encarnaci%C3%B3n_(Montefr%C3%ADo)">Granadapedia</a>.</li>
+  <li>“Iglesia de la Encarnacio - Montefrio,” <a href="https://rinconesdegranada.com/iglesia-la-encarnacion-montefrio">Rincones de Granada</a></li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Montefrio, Granada, Andalucia." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/article/2019-03-31-montefrio-andalucia-rem/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

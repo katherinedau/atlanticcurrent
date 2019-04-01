@@ -9,7 +9,6 @@ lng: -5.750495
 desc: Ermita de San Sebastián
 ---
 #### Verified
-
 The chapel of St. Sebastian, co-patron of Mairena del Alcor, was built in 15th century. The Capuchin friars of the Convent of Sevilla gave the image of Ntra. Sr. de los Remedios to the Duke of Arcos. In 1633, he gave the image to the hermitage in the city, and a brotherhood was founded in 1673. In 1936, the original image was destroyed in a fire.   
 
 This incarnation of Remedios was canonically crowned in 1969, after being declared patron on September 8, 1991. Residents celebrate her on September 8.

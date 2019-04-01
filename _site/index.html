@@ -272,6 +272,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 37.321358;
+      lng = -4.010132;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Montefrio, Granada,...</strong>";
+      } else {
+      content = "<strong>Montefrio, Granada, Andalucia</strong><br>Iglesia de la Encarnacion";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-31-montefrio-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-31-montefrio-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-31-montefrio-andalucia-rem/';
+        item_id = "/article/2019-03-31-montefrio-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 36.595515;
       lng = -4.638029;
 
@@ -2129,6 +2175,98 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 37.834852;
+      lng = -3.468666;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Jimena, Jaen,...</strong>";
+      } else {
+      content = "<strong>Jimena, Jaen, Andalucia</strong><br>Ermita de Cánava";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-31-jimena-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-31-jimena-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-31-jimena-andalucia-rem/';
+        item_id = "/article/2019-03-31-jimena-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.392137;
+      lng = -3.531225;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Iznalloz, Granada,...</strong>";
+      } else {
+      content = "<strong>Iznalloz, Granada, Andalucia</strong><br>Parroquia Nuestro Señora de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-31-iznalloz-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-31-iznalloz-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-03-31-iznalloz-andalucia-rem/';
+        item_id = "/article/2019-03-31-iznalloz-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 39.960404;
       lng = -3.500358;
 
