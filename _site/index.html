@@ -922,7 +922,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Campotejar, Granada,...</strong>";
       } else {
-      content = "<strong>Campotejar, Granada, Andalucia</strong><br>";
+      content = "<strong>Campotejar, Granada, Andalucia</strong><br>unverified";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1014,7 +1014,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Ambroz (Vega...</strong>";
       } else {
-      content = "<strong>Ambroz (Vega del Genil), Granada, Andalucia</strong><br>";
+      content = "<strong>Ambroz (Vega del Genil), Granada, Andalucia</strong><br>unverified";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1265,7 +1265,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Valdelacasa de...</strong>";
       } else {
-      content = "<strong>Valdelacasa de Tajo, Caceres, Extremadura</strong><br>no church to be found";
+      content = "<strong>Valdelacasa de Tajo, Caceres, Extremadura</strong><br>unverified";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1299,52 +1299,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-02-14-valdelacasa-de-tajo-extremadura-guad/";
         article_url = '/atlanticcurrent/article/2019-02-14-valdelacasa-de-tajo-extremadura-guad/';
         item_id = "/article/2019-02-14-valdelacasa-de-tajo-extremadura-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 38.007352;
-      lng = -3.368509;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Ubeda, Jaen,...</strong>";
-      } else {
-      content = "<strong>Ubeda, Jaen, Andalucia</strong><br>Basílica de Santa María de los Reales Alcázares";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-ubeda-andalucia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-ubeda-andalucia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-ubeda-andalucia-guad/';
-        item_id = "/article/2019-02-14-ubeda-andalucia-guad/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 
@@ -1679,7 +1633,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Codeseda, Pontevedra,...</strong>";
       } else {
-      content = "<strong>Codeseda, Pontevedra, Galicia</strong><br>Church of San Xurxo";
+      content = "<strong>Codeseda, Pontevedra, Galicia</strong><br>Church of San Xurxo (unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1725,7 +1679,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Aldea del...</strong>";
       } else {
-      content = "<strong>Aldea del Fresno, Madrid</strong><br>church";
+      content = "<strong>Aldea del Fresno, Madrid</strong><br>church (unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1817,7 +1771,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Fuenterrabía, Guipúzcoa...</strong>";
       } else {
-      content = "<strong>Fuenterrabía, Guipúzcoa</strong><br>this is the map popup text";
+      content = "<strong>Fuenterrabía, Guipúzcoa</strong><br>(unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1918,6 +1872,52 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
         post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad/";
         article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad/';
         item_id = "/article/2019-03-10-tepeyac-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.007352;
+      lng = -3.368509;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ubeda, Jaen,...</strong>";
+      } else {
+      content = "<strong>Ubeda, Jaen, Andalucia</strong><br>Basílica de Santa María de los Reales Alcázares";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-ubeda-andalucia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-ubeda-andalucia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-ubeda-andalucia-guad/';
+        item_id = "/article/2019-02-14-ubeda-andalucia-guad/";
         window.location = (post_url);
         articlerender(article_url, item_id);
 

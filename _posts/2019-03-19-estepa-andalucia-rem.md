@@ -6,9 +6,9 @@ categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 37.2884114
 lng: -4.8837179
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Igelsia de Nuestra Señora de los Remedios
 ---
+#### Verified
 ![Our Lady of los Remedios](images/rem-estepa.gif)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Virgen_de_los_Remedios.gif)

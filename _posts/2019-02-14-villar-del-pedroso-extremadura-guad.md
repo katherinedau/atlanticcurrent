@@ -8,6 +8,7 @@ lat: 39.704779
 lng: -5.194911
 desc: Iglesia de San Pedro
 ---
+#### Verified
 The town of Villar del Pedroso lays on the pilgrimage route to the Royal Monastery of Guadalupe. They claim their patron as la Virgen de Burgilla.
 
 #### Works cited

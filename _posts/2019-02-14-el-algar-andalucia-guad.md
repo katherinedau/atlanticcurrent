@@ -8,6 +8,7 @@ lat: 36.65616
 lng: -5.656884
 desc: Parroquia de Santa María de Guadalupe
 ---
+#### Verified
 In 1773, Algar was founded as Santa María de Guadalupe by Domingo López de Carvajal, Vicomte de Carrión, and Marqués de Atalaya Bermeja. Domingo López de Carvajal pledged to found the town in honor of the Mexican Virgin of Guadalupe during a perilous journey between Spain and Mexico.
 
 Algar's coat of arms represents the image of the Guadalupe standing on a green island.

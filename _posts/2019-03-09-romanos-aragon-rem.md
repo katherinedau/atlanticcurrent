@@ -9,6 +9,7 @@ lng: -1.269131
 runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Ermita de la Virgen de los Remedios
 ---
+#### Verified
 On August 25 each year, the town processes to the hermitage of Remedios.
 
 #### Works cited

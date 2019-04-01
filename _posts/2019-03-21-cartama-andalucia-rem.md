@@ -6,9 +6,9 @@ categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 36.70922
 lng: -4.629344
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Santuario de Nuestra Señora de los Remedios
 ---
+#### Verified
 ![La Virgen de los Remedios](images/rem-cartama.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Virgen_de_los_Remedios_C%C3%A1rtama.jpg)

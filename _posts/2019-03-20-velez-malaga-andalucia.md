@@ -6,15 +6,15 @@ categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 36.781654
 lng: -4.098270
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Ermita de la Virgen de los Remedios
 ---
+#### Verified
 ![Ermita de la Virgen de los Remedios](images/rem-velez-malaga.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jt_201603_DSC_0434.jpg)
    {:.caption}
 
-Vélez Málaga sits on two hills. a medieval fortress occupies one and Our Lady of los Remedios the other. The structure was built in the 17th century.
+Vélez Málaga sits on two hills. A medieval fortress occupies one and the chapel of Our Lady of los Remedios the other. The structure was built in the 17th century.
 
 #### Works cited
 

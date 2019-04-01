@@ -6,5 +6,6 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 43.365355
 lng: -1.797329
-desc: "this is the map popup text"
+desc: (unverified)
 ---
+#### Unverified

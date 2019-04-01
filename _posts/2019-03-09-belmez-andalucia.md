@@ -9,6 +9,8 @@ lng: -5.20307
 runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Ermita de Ntra. Sra. de los Remedios
 ---
+#### Verified
+
 ![Ntra. Sra. de los Remedios (destroyed)](images/rem-belmez.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ntra._Sra._de_Los_Remedios.jpg)

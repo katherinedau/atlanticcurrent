@@ -8,7 +8,7 @@ lat: 43.215367
 lng: -4.590585
 desc: Iglesia de Santa María de Lebeña (unverified)
 ---
-
+#### Unverified
 I have found no information verifying a devotion to Guadalupe in this location.
 
 ![Santa María de Lebeña](images/guad_lebena.jpg)

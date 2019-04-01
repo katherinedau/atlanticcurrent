@@ -6,5 +6,6 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 40.325828
 lng: -4.202344
-desc: church
+desc: church (unverified)
 ---
+#### Unverified

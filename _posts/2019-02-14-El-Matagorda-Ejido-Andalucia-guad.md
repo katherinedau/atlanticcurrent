@@ -8,9 +8,9 @@ lat: 36.718047
 lng: -2.841931
 desc: Iglesia de Nuestra Señora de Guadalupe
 ---
+#### Verified
 The town of Matagorda celebrates its patron the Virgin of Guadalupe in the third week of June.
 
-#### Verified
 #### Works cited
 
 {:.bibliography}

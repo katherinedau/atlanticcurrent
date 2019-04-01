@@ -9,7 +9,9 @@ lng: -6.148704
 runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Iglesia de San Telmo
 ---
-Housed in the Church of San Telmo (1740), the icon of Remedios has a long history in Chiclana de la Frontera. The gilded baroque altarpiece holds the image of the virgin. The image was discovered in teh 16th century.
+#### Verified
+
+Housed in the Church of San Telmo (1740), the icon of Remedios has a long history in Chiclana de la Frontera. The gilded baroque altarpiece holds the image of the virgin. The image was discovered in the 16th century.
 
 The town celebrates the feast of Ntra. Sra de los Remedios on September 8.
 

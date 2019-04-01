@@ -9,6 +9,7 @@ lng: -5.240636
 runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Santuario de Ntra. Sra. de los Remedios
 ---
+#### Verified
 ![Ntra. Sra. de los Remedios (destroyed)](images/olvera-rem1.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Santuario_de_Nuestra_Se%C3%B1ora_de_los_Remedios_(Olvera)_-_004_(30708394645).jpg)

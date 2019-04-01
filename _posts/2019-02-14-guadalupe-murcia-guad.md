@@ -8,6 +8,7 @@ lat: 37.99801
 lng: -1.169033
 desc: Parroquia de Nuestra Senora de Guadalupe
 ---
+#### Verified
 The church of Guadalupe was founded in 1571, in the same century as Guadalupe became patron of the region. This is the only sanctuary dedicated to Guadalupe in the region. The town was likely dedicated to the Extremaduran Virgin after the successful conquest of the region with the help of the Virgin. Guadalupe was canonically crowned in 2000. The current church was constructed in the 18th century.
 
 As they were the keepers of the Royal Monastery of Guadalupe in Extremadura, it follows that the Hieronymites would bring their devotion to the Virgin to their new monastery.
@@ -17,7 +18,7 @@ As they were the keepers of the Royal Monastery of Guadalupe in Extremadura, it 
    {:.caption}
 
 Today, the town celebrates its patron in July.
-#### Verified
+
 #### Works cited
 
 {:.bibliography}

@@ -2,12 +2,17 @@
 layout: post
 title: Ubeda, Jaen, Andalucia
 date: 2019-02-14
-categories: ["Guadalupe"]
+categories: ["Major Guadalupe Site"]
 author: "Katherine Dau"
 lat: 38.007352
 lng: -3.368509
 desc: Basílica de Santa María de los Reales Alcázares
 ---
+#### Verified
+![Nuestra Señora de Guadalupe y del Gavellar, patrona de Úbeda](images/guadalupe-ubeda.jpg)
+   {:.image}
+[Photo via Flikr user Rafa Merelo Guervós](https://www.flickr.com/photos/guervos/1229807807/in/photostream/).
+    {:.caption}
 In 1381, a farmer named Juan Martínez discovered this image of the Virgin in Gavellar nearby Úbeda. Although he took her to Úbeda, she often reappeared in Gavellar, where her hermitage remains today.
 
 The people of Úbeda made Guadalupe their patron in 1615. They process the Virgin into the city from her sanctuary on May 1 and place her in the Basílica de Santa María de los Reales Alcázares, where she remains until September 8.
@@ -19,10 +24,7 @@ The current image of Guadalupe is not original. She was destroyed in a fire in 1
 [Photo via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Santa_Mar%C3%ADa_de_los_Reales_Alc%C3%A1zares,_%C3%9Abeda_(Spain).
    {:.caption}
 
-![Nuestra Señora de Guadalupe y del Gavellar, patrona de Úbeda](images/guadalupe-ubeda.jpg)
-   {:.image}
-[Photo via Flikr user Rafa Merelo Guervós](https://www.flickr.com/photos/guervos/1229807807/in/photostream/).
-    {:.caption}
+
 
 #### Works cited
 

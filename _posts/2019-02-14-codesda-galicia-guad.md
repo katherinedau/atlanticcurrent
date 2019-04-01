@@ -6,7 +6,8 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 42.618443
 lng: -8.437432
-desc: Church of San Xurxo
+desc: Church of San Xurxo (unverified)
 ---
+#### Unverified
 
 looks like image of mex guad inside

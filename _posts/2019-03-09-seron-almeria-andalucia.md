@@ -6,10 +6,10 @@ categories: ["Remedios"]
 author: "Katherine Dau"
 lat: 37.341885
 lng: -2.512209
-runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc: Ermita de los Remedios
 ---
-Serón honors its patron with a 19th century hermitage and plaza named after the Virgin. The image was canonically crowned in 1965. Serón honors its patron with a 19th century hermitage and plaza named after the Virgin. The image was canonically crowned in 1965.
+#### Verified
+Serón honors its patron with a 19th century hermitage and plaza named after the Virgin. The image was canonically crowned in 1965.
 
 #### Works cited
 

@@ -8,6 +8,7 @@ lat: 39.312338
 lng: -4.646116
 desc: Ermita Virgen de Guadalupe
 ---
+#### Verified
 In August, the townspeople process the image of Guadalupe from her hermitage which lies outside of the city into the church of San Antonio Abad.
 
 <!-- https://www.youtube.com/watch?v=yErik2-KpTY
@@ -15,7 +16,7 @@ In August, the townspeople process the image of Guadalupe from her hermitage whi
    {:.image}
 [Photo via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lebe%C3%B1a2.jpg).
    {:.caption} -->
-#### Verified
+
 #### Works Cited
 
 {:.bibliography}

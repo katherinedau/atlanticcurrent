@@ -8,6 +8,7 @@ lat: 39.960404
 lng: -3.500358
 desc: Ermita de los Remedios in la Iglesia de San Juan Bautista
 ---
+#### Verified
 ![Nuestra Señora Virgen de los Remedios de Ocaña](images/ocana-rem.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_Virgen_de_los_Remedios_de_Oca%C3%B1a_(Toledo).jpg)

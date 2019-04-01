@@ -9,6 +9,7 @@ lng: -2.712094
 runningtitle: "this is the running title at the top. the default is to display the site title, so to activate the running title you will need to uncomment in the post.html layout"
 desc:	Iglesia Parroquial de Santa Teresa
 ---
+#### Verified
 Doña María holds a festival to the Virgen de los Remedios and St. Teresa from October 12-15 each year.
 
 #### Works cited

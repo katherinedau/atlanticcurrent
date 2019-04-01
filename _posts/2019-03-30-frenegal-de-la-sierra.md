@@ -8,6 +8,7 @@ lat: 38.228103
 lng: -6.635637
 desc: Santuario de la Virgen de los Remedios
 ---
+#### Verified
 ![Nuestra Señora Virgen de los Remedios](images/frenegal-de-la-sierra-rem.jpg)
    {:.image}
 [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:VirgendelosRemedios.jpg).jpg)
