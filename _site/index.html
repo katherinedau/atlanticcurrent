@@ -257,6 +257,14 @@ var icons = [];
 
     
 
+    
+
+    
+
+    
+
+    
+
 
 var counter = -1;
 var groups = {};
@@ -1259,6 +1267,349 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 19.484808;
+      lng = -99.117862;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Tepeyac, Mexico...</strong>";
+      } else {
+      content = "<strong>Tepeyac, Mexico City</strong><br>Basílica de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-03-10-tepeyac-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad/";
+        article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad/';
+        item_id = "/article/2019-03-10-tepeyac-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.007352;
+      lng = -3.368509;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ubeda, Jaen,...</strong>";
+      } else {
+      content = "<strong>Ubeda, Jaen, Andalucia</strong><br>Basílica de Santa María de los Reales Alcázares";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-ubeda-andalucia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-ubeda-andalucia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-ubeda-andalucia-guad/';
+        item_id = "/article/2019-02-14-ubeda-andalucia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.99801;
+      lng = -1.169033;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Murcia...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Murcia</strong><br>Parroquia de Nuestra Senora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-guadalupe-murcia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-guadalupe-murcia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-guadalupe-murcia-guad/';
+        item_id = "/article/2019-02-14-guadalupe-murcia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 36.65616;
+      lng = -5.656884;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Algar,...</strong>";
+      } else {
+      content = "<strong>El Algar, Cadiz, Andalucia</strong><br>Parroquia de Santa María de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-14-el-algar-andalucia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-14-el-algar-andalucia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-14-el-algar-andalucia-guad/';
+        item_id = "/article/2019-02-14-el-algar-andalucia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 28.126604;
+      lng = -17.104034;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>San Sebastian...</strong>";
+      } else {
+      content = "<strong>San Sebastian de la Gomera, Tenerife, Canarias</strong><br>Ermita de Nuestra Señora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad/';
+        item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 39.452384;
+      lng = -5.32732;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Guadalupe, Cáceres,...</strong>";
+      } else {
+      content = "<strong>Guadalupe, Cáceres, Extremadura</strong><br>Royal Monasterio de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-guadalupe-extrem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-guadalupe-extrem/";
+        article_url = '/atlanticcurrent/article/2019-02-11-guadalupe-extrem/';
+        item_id = "/article/2019-02-11-guadalupe-extrem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.365355;
+      lng = -1.797329;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Fuenterrabia, Guipuzcoa,...</strong>";
+      } else {
+      content = "<strong>Fuenterrabia, Guipuzcoa, Pais Vasco</strong><br>Santuario de Nuestra Señora de Guadalupe";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-02-11-fuenterrabia-guad/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-02-11-fuenterrabia-guad/";
+        article_url = '/atlanticcurrent/article/2019-02-11-fuenterrabia-guad/';
+        item_id = "/article/2019-02-11-fuenterrabia-guad/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+
+    var imageurl = '<img class="legend" src="' + iconurl + '">'
+    if (markergrouping == 'grouped') {
+		map.addLayer(markers);
+		var name = imageurl + ' ' + 'Major Guadalupe Site';
+		overLayers.push({"name":name, "layer":groups[counter]})
+	} else if (markergrouping == 'single') {
+	 var name = 'Major Guadalupe Site';
+	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
+	}
+ 
+counter += 1;
+
+
+var layers = [];
+if (markergrouping == 'grouped') {
+groups[counter] = L.featureGroup.subGroup(markers);
+var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
+}
+
+
       lat = 39.704779;
       lng = -5.194911;
 
@@ -1725,7 +2076,7 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Aldea del...</strong>";
       } else {
-      content = "<strong>Aldea del Fresno, Madrid</strong><br>church (unverified)";
+      content = "<strong>Aldea del Fresno, Madrid</strong><br>(unverified)";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1765,13 +2116,13 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 42.653012;
-      lng = -8.817926;
+      lat = 42.653026;
+      lng = -8.817914;
 
       if ($(window).height() < 600 || $(window).width() < 550){
       content = "<strong>Rianxo, A...</strong>";
       } else {
-      content = "<strong>Rianxo, A Coruña</strong><br>Sanctuary to Guadalupe";
+      content = "<strong>Rianxo, A Coruña, Galacia</strong><br>Ermida da Virxe de Guadalupe";
       }
 
       var iconurl = "/atlanticcurrent" + icons[counter]
@@ -1811,52 +2162,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
       });
 
       
-      lat = 43.365355;
-      lng = -1.797329;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Fuenterrabía, Guipúzcoa...</strong>";
-      } else {
-      content = "<strong>Fuenterrabía, Guipúzcoa</strong><br>(unverified)";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-11-fuenterrabia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-11-fuenterrabia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-11-fuenterrabia-guad/';
-        item_id = "/article/2019-02-11-fuenterrabia-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
 
     var imageurl = '<img class="legend" src="' + iconurl + '">'
     if (markergrouping == 'grouped') {
@@ -1865,303 +2170,6 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 		overLayers.push({"name":name, "layer":groups[counter]})
 	} else if (markergrouping == 'single') {
 	 var name = 'Guadalupe';
-	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
-	}
- 
-counter += 1;
-
-
-var layers = [];
-if (markergrouping == 'grouped') {
-groups[counter] = L.featureGroup.subGroup(markers);
-var control = L.control.layers(null, null, { collapsed: true, position: 'topleft' });
-}
-
-
-      lat = 19.484808;
-      lng = -99.117862;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Tepeyac, Mexico...</strong>";
-      } else {
-      content = "<strong>Tepeyac, Mexico City</strong><br>Basílica de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-03-10-tepeyac-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-03-10-tepeyac-guad/";
-        article_url = '/atlanticcurrent/article/2019-03-10-tepeyac-guad/';
-        item_id = "/article/2019-03-10-tepeyac-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 38.007352;
-      lng = -3.368509;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Ubeda, Jaen,...</strong>";
-      } else {
-      content = "<strong>Ubeda, Jaen, Andalucia</strong><br>Basílica de Santa María de los Reales Alcázares";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-ubeda-andalucia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-ubeda-andalucia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-ubeda-andalucia-guad/';
-        item_id = "/article/2019-02-14-ubeda-andalucia-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 37.99801;
-      lng = -1.169033;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Guadalupe, Murcia...</strong>";
-      } else {
-      content = "<strong>Guadalupe, Murcia</strong><br>Parroquia de Nuestra Senora de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-guadalupe-murcia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-guadalupe-murcia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-guadalupe-murcia-guad/';
-        item_id = "/article/2019-02-14-guadalupe-murcia-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 36.65616;
-      lng = -5.656884;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>El Algar,...</strong>";
-      } else {
-      content = "<strong>El Algar, Cadiz, Andalucia</strong><br>Parroquia de Santa María de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-14-el-algar-andalucia-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-14-el-algar-andalucia-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-14-el-algar-andalucia-guad/';
-        item_id = "/article/2019-02-14-el-algar-andalucia-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 28.126604;
-      lng = -17.104034;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>San Sebastian...</strong>";
-      } else {
-      content = "<strong>San Sebastian de la Gomera, Tenerife, Canarias</strong><br>Ermita de Nuestra Señora de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
-        article_url = '/atlanticcurrent/article/2019-02-11-san-sebastian-de-la-gomera-guad/';
-        item_id = "/article/2019-02-11-san-sebastian-de-la-gomera-guad/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-      lat = 39.452384;
-      lng = -5.32732;
-
-      if ($(window).height() < 600 || $(window).width() < 550){
-      content = "<strong>Guadalupe, Cáceres,...</strong>";
-      } else {
-      content = "<strong>Guadalupe, Cáceres, Extremadura</strong><br>Royal Monasterio de Guadalupe";
-      }
-
-      var iconurl = "/atlanticcurrent" + icons[counter]
-      var mbox = L.icon({
-            iconUrl: iconurl,
-            iconSize : [46, 50],
-            iconAnchor : [17, 36],
-            popupAnchor : [-1, 8]
-          });
-      var marker = L.marker([lat, lng], {
-        icon: mbox,
-      }).bindPopup(content, {offset:new L.Point(0,-30)});
-      marker.iconURL = iconurl;
-
-      if (markergrouping == 'grouped') {
-    	marker.addTo(groups[counter])
-      } else if (markergrouping == 'single') {
-      	layers.push(marker);
-      }
-
-      filename = "/article/2019-02-11-guadalupe-extrem/"
-      if (items[filename] == undefined) {
-      items[filename] = [marker];
-      } else {
-      items[filename].push(marker);
-      }
-
-
-
-      marker.on('click', function(){
-        post_url = "/atlanticcurrent/#/article/2019-02-11-guadalupe-extrem/";
-        article_url = '/atlanticcurrent/article/2019-02-11-guadalupe-extrem/';
-        item_id = "/article/2019-02-11-guadalupe-extrem/";
-        window.location = (post_url);
-        articlerender(article_url, item_id);
-
-      });
-
-      
-
-    var imageurl = '<img class="legend" src="' + iconurl + '">'
-    if (markergrouping == 'grouped') {
-		map.addLayer(markers);
-		var name = imageurl + ' ' + 'Major Guadalupe Site';
-		overLayers.push({"name":name, "layer":groups[counter]})
-	} else if (markergrouping == 'single') {
-	 var name = 'Major Guadalupe Site';
 	 overLayers.push({"name":name, icon: imageurl, active: true, "layer":L.layerGroup(layers)})
 	}
  

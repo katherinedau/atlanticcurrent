@@ -16,6 +16,7 @@ desc: Ermida da Virxe de Guadalupe
    {:.caption}
 
 The chapel was largely constructed in the 17th century.
+In 1671, Alonso Fernández de Bastón established the chapel on the site of an earlier shrine. The image of the Virgin of Guadalupe was installed in 1854.
 
 The people of Rianxo celebrate the Virgin of Guadalupe from September 7-14 each year.
 
@@ -26,6 +27,7 @@ The people of Rianxo celebrate the Virgin of Guadalupe from September 7-14 each 
 
 #### Works Cited
 {:.bibliography}
-1. "Rianxo's churches, historic buildings and monuments" [Galacia Guide](http://www.galiciaguide.com/Rianxo-galicia-history.html).
+1. "Capelas e Ermidas" [Rianxo](http://omarfeitotradicion.gal/en/capelas-e-ermidas)
 2. "Rianjo" [Wikipedia](https://es.wikipedia.org/wiki/Rianjo).
-3. "Fuenterrabía" [Wikipedia](https://es.wikipedia.org/wiki/Fuenterrab%C3%ADa)
+3. "Rianxo's churches, historic buildings and monuments" [Galacia Guide](http://www.galiciaguide.com/Rianxo-galicia-history.html).
+4. "Guadalupe en Rianxo," [Festas Galacia](https://www.paxinasgalegas.es/fiestas/guadalupe-rianxo-1632.html)
