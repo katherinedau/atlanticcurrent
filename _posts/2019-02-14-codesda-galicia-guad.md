@@ -14,7 +14,7 @@ The shrine to Gudadalupe was founded in 1748 by citizens of A Grela, Domingo Cab
 Inside another church in Codeseda, the church of San Xurxo, an image of the Mexican Virgin of Guadalupe hangs to the left of the altar.
 ![Iglesia de San Xurxo de Codeseda](images/san_xurxo_de_codeseda-guad.jpg)
    {:.image}
-On the left of this image, you can see a representation of the Mexican Virgin of Guadalupe [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Xurxo_de_Codeseda_(4085964443).jpg)
+On the left of this image of the interior of the church of San Xurxo, you can see a representation of the Mexican Virgin of Guadalupe [Photo from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Xurxo_de_Codeseda_(4085964443).jpg)
    {:.caption}
 
 

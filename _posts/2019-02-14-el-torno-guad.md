@@ -6,7 +6,7 @@ categories: ["Guadalupe"]
 author: "Katherine Dau"
 lat: 39.255351
 lng: -4.258006
-desc: plaza of guadalupe
+desc: Ermita Ntra. Sra. Guadalupe
 ---
 #### Verified
 #### Works Cited
