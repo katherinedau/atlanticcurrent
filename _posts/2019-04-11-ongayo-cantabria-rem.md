@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meruelo (San Andres de Meruelo), Cantabria
+title: Ongayo, Cantabria
 date: 2019-04-11
 categories: ["Remedios"]
 author: "Katherine Dau"
