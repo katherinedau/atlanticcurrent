@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Porcia - Valdepares (El Franco), Asturias, Asturias
+title: Porcia-Valdepares (El Franco), Asturias, Asturias
 date: 2019-04-10
 categories: ["Remedios"]
 author: "Katherine Dau"

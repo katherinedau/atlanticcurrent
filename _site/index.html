@@ -284,6 +284,1156 @@ var control = L.control.layers(null, null, { collapsed: true, position: 'topleft
 }
 
 
+      lat = 28.952353;
+      lng = -13.765172;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Yaiza (Lanzarote),...</strong>";
+      } else {
+      content = "<strong>Yaiza (Lanzarote), Las Palmas, Canarias</strong><br>Parroquia Nuestra Señora de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-yaiza-canarias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-yaiza-canarias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-yaiza-canarias-rem/';
+        item_id = "/article/2019-04-11-yaiza-canarias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 28.659101;
+      lng = -17.913029;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Valle de...</strong>";
+      } else {
+      content = "<strong>Valle de Aridane (La Palma), Tenerife, Canarias</strong><br>Parroquia Matriz de Nuestra Señora de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-valle-de-aridane-canarias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-valle-de-aridane-canarias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-valle-de-aridane-canarias-rem/';
+        item_id = "/article/2019-04-11-valle-de-aridane-canarias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.201537;
+      lng = -4.423607;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>San Sebastian...</strong>";
+      } else {
+      content = "<strong>San Sebastian de Garabandal, Castilla-La Mancha</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-san-sebastian-clm-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-san-sebastian-clm-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-san-sebastian-clm-rem/';
+        item_id = "/article/2019-04-11-san-sebastian-clm-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.414697;
+      lng = -4.064281;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ongayo, Cantabria...</strong>";
+      } else {
+      content = "<strong>Ongayo, Cantabria</strong><br>Ermita de Los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-ongayo-cantabria-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-ongayo-cantabria-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-ongayo-cantabria-rem/';
+        item_id = "/article/2019-04-11-ongayo-cantabria-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.090405;
+      lng = -3.894743;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Luena, Cantabria...</strong>";
+      } else {
+      content = "<strong>Luena, Cantabria</strong><br>Ermita de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-luena-cantabria-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-luena-cantabria-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-luena-cantabria-rem/';
+        item_id = "/article/2019-04-11-luena-cantabria-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 28.659154;
+      lng = -17.913109;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Llanos de...</strong>";
+      } else {
+      content = "<strong>Llanos de Aridane, los (Palma), Tenerife, Canarias</strong><br>Iglesia de Nuestra Señora de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-llanos-de-aridane-canarias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-llanos-de-aridane-canarias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-llanos-de-aridane-canarias-rem/';
+        item_id = "/article/2019-04-11-llanos-de-aridane-canarias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.275294;
+      lng = -4.098833;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Coo (Corrales...</strong>";
+      } else {
+      content = "<strong>Coo (Corrales de Buelna), Cantabria</strong><br>Ermita de Nuestra Señora de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-coo-cantabria-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-coo-cantabria-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-coo-cantabria-rem/';
+        item_id = "/article/2019-04-11-coo-cantabria-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 28.37255;
+      lng = -16.851177;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Buenavista del...</strong>";
+      } else {
+      content = "<strong>Buenavista del Norta, Tenerife, Canarias</strong><br>Iglesia N. Sra. de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-buenavista-del-norta-canarias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-buenavista-del-norta-canarias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-buenavista-del-norta-canarias-rem/';
+        item_id = "/article/2019-04-11-buenavista-del-norta-canarias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.2260115;
+      lng = -6.9549096;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Villarquille (San...</strong>";
+      } else {
+      content = "<strong>Villarquille (San Martin de Oscos), Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-villarquille-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-villarquille-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-villarquille-asturias-rem/';
+        item_id = "/article/2019-04-11-villarquille-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.2260115;
+      lng = -6.9549096;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Serrapio (Aller),...</strong>";
+      } else {
+      content = "<strong>Serrapio (Aller), Asturias, Asturias</strong><br>Iglesia de San Vicente de Serrapio (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-serrapio-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-serrapio-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-serrapio-asturias-rem/';
+        item_id = "/article/2019-04-11-serrapio-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.4791551;
+      lng = -5.3958344;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>San Esteban...</strong>";
+      } else {
+      content = "<strong>San Esteban de Miravalles, Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-san-esteban-de-miravalles-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-san-esteban-de-miravalles-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-san-esteban-de-miravalles-asturias-rem/';
+        item_id = "/article/2019-04-11-san-esteban-de-miravalles-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.560156;
+      lng = -6.864244;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Porcia-Valdepares (El...</strong>";
+      } else {
+      content = "<strong>Porcia-Valdepares (El Franco), Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-porcia-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-porcia-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-porcia-asturias-rem/';
+        item_id = "/article/2019-04-11-porcia-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.220457;
+      lng = -5.88363;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Felgueras (Riosa),...</strong>";
+      } else {
+      content = "<strong>Felgueras (Riosa), Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-felgueras-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-felgueras-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-felgueras-asturias-rem/';
+        item_id = "/article/2019-04-11-felgueras-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.252374;
+      lng = -5.575375;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Carrio, Asturias,...</strong>";
+      } else {
+      content = "<strong>Carrio, Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-11-carrio-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-11-carrio-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-11-carrio-asturias-rem/';
+        item_id = "/article/2019-04-11-carrio-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.026816;
+      lng = -3.100418;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Santo Tome,...</strong>";
+      } else {
+      content = "<strong>Santo Tome, Jaen, Andalucia</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-santo-tome-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-santo-tome-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-santo-tome-andalucia-rem/';
+        item_id = "/article/2019-04-10-santo-tome-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.2899959;
+      lng = -5.4962275;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Paradas, Huelva,...</strong>";
+      } else {
+      content = "<strong>Paradas, Huelva, Andalucia</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-paradas-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-paradas-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-paradas-andalucia-rem/';
+        item_id = "/article/2019-04-10-paradas-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.9170812;
+      lng = -4.638029;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Jabugo, Huelva,...</strong>";
+      } else {
+      content = "<strong>Jabugo, Huelva, Andalucia</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-jabugo-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-jabugo-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-jabugo-andalucia-rem/';
+        item_id = "/article/2019-04-10-jabugo-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.0229191;
+      lng = -3.502099;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Ibros, Jaen,...</strong>";
+      } else {
+      content = "<strong>Ibros, Jaen, Andalucia</strong><br>Parroquia de San Pedro y San Pablo (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-ibros-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-ibros-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-ibros-andalucia-rem/';
+        item_id = "/article/2019-04-10-ibros-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.91171;
+      lng = -3.002735;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>El Molar...</strong>";
+      } else {
+      content = "<strong>El Molar (Cazorla), Jaen, Andalucia</strong><br>Santa Maria Parish Church (San José) (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-el-molar-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-el-molar-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-el-molar-andalucia-rem/';
+        item_id = "/article/2019-04-10-el-molar-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.652954;
+      lng = -3.6357628;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Carchel, Jaen,...</strong>";
+      } else {
+      content = "<strong>Carchel, Jaen, Andalucia</strong><br>Parroquia Nuestra Señora de los Remedios (Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-carchel-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-carchel-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-carchel-andalucia-rem/';
+        item_id = "/article/2019-04-10-carchel-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 43.255078;
+      lng = -6.013866;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Caranga de...</strong>";
+      } else {
+      content = "<strong>Caranga de Arriba (Proaza), Asturias, Asturias</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-caranga-de-arriba-asturias-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-caranga-de-arriba-asturias-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-caranga-de-arriba-asturias-rem/';
+        item_id = "/article/2019-04-10-caranga-de-arriba-asturias-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.0483489;
+      lng = -3.4818721;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Canena, Jaen,...</strong>";
+      } else {
+      content = "<strong>Canena, Jaen, Andalucia</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-canena-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-canena-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-canena-andalucia-rem/';
+        item_id = "/article/2019-04-10-canena-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.9356822;
+      lng = -6.624553;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Cortelazor, Huelva,...</strong>";
+      } else {
+      content = "<strong>Cortelazor, Huelva, Andalucia</strong><br>(Unverified)";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-cortelazor-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-cortelazor-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-cortelazor-andalucia-rem/';
+        item_id = "/article/2019-04-10-cortelazor-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 38.020305;
+      lng = -6.418836;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Arroyomolinos de...</strong>";
+      } else {
+      content = "<strong>Arroyomolinos de Leon, Huelva, Andalucia</strong><br>Ermita de Ntra. Sra. de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-arroyomolinos-andalucia-rem/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-arroyomolinos-andalucia-rem/";
+        article_url = '/atlanticcurrent/article/2019-04-10-arroyomolinos-andalucia-rem/';
+        item_id = "/article/2019-04-10-arroyomolinos-andalucia-rem/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
+      lat = 37.272573;
+      lng = -7.023233;
+
+      if ($(window).height() < 600 || $(window).width() < 550){
+      content = "<strong>Aljaraque, Huelva,...</strong>";
+      } else {
+      content = "<strong>Aljaraque, Huelva, Andalucia</strong><br>Parroquia de Ntra. Sra. de los Remedios";
+      }
+
+      var iconurl = "/atlanticcurrent" + icons[counter]
+      var mbox = L.icon({
+            iconUrl: iconurl,
+            iconSize : [46, 50],
+            iconAnchor : [17, 36],
+            popupAnchor : [-1, 8]
+          });
+      var marker = L.marker([lat, lng], {
+        icon: mbox,
+      }).bindPopup(content, {offset:new L.Point(0,-30)});
+      marker.iconURL = iconurl;
+
+      if (markergrouping == 'grouped') {
+    	marker.addTo(groups[counter])
+      } else if (markergrouping == 'single') {
+      	layers.push(marker);
+      }
+
+      filename = "/article/2019-04-10-aljaraque-andalucia/"
+      if (items[filename] == undefined) {
+      items[filename] = [marker];
+      } else {
+      items[filename].push(marker);
+      }
+
+
+
+      marker.on('click', function(){
+        post_url = "/atlanticcurrent/#/article/2019-04-10-aljaraque-andalucia/";
+        article_url = '/atlanticcurrent/article/2019-04-10-aljaraque-andalucia/';
+        item_id = "/article/2019-04-10-aljaraque-andalucia/";
+        window.location = (post_url);
+        articlerender(article_url, item_id);
+
+      });
+
+      
       lat = 37.321358;
       lng = -4.010132;
 
