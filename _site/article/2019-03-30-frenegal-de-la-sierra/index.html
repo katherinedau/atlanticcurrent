@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <body>
+    <div id="article-content">
+	   <div class="post">
+    <header>
+  	  <!-- <p class="post-header"></p> -->
+      <!-- OR -->
+      <p class="post-header">The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</p>
+
+      <h1 class="post-title">Fregenal de la Sierra, Badajoz, Extremadura</h1>
+      <p class="byline">Katherine Dau</p>
+    </header>
+    <div id="content">
+      <h4 id="verified">Verified</h4>
+<p class="image"><img src="images/frenegal-de-la-sierra-rem.jpg" alt="Nuestra Señora Virgen de los Remedios" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:VirgendelosRemedios.jpg">Photo from Wikimedia Commons</a>.jpg)</p>
+
+<p>The Virgin of los Remedios of Frenegal de la Sierra follows the classic shepherds cycle tradition. A shepherd went to collect water from the well in the “Cerro del Rodeo” region. There, he discovered the figure of the Virgin. He took it with him, but she disappeared from his bag. When he went back to the well the next day to collect more water and the image appeared again. He placed her in his bag again, this time wrapping her more carefully. Once again, on the way home she escaped. After the third instance, he visited a priest, who decided to build a sanctuary in that spot.</p>
+
+<p>The Sanctuary of Our Lady of los Remedios serves as the images home. It was constructed between 1497-1499 and renovated in the following centuries. In 1642, an expansion was completed. She continues to be invoked in times of drought. On April 27, 1906 she was canonically coronated. Like the Virgin of los Remedios in Mexico, this incarnation is also considered a leader of the army, <em>Capitán General del Ejército de España.</em></p>
+
+<p class="image"><img src="images/frenegal-rem2.jpg" alt="Santuario de Nuestra Señora de los Remedios" /></p>
+<p class="caption"><a href="https://commons.wikimedia.org/wiki/File:ERMITA_VIRGEN.jpg">Photo from Wikimedia Commons</a></p>
+
+<h4 id="works-cited">Works cited</h4>
+
+<ol class="bibliography">
+  <li>“Santuario de Nuestra Señora de los Remedios (Fregenal de la Sierra),” <a href="https://es.wikipedia.org/wiki/Santuario_de_Nuestra_Se%C3%B1ora_de_los_Remedios_(Fregenal_de_la_Sierra)">Wikipedia</a></li>
+  <li>“Ntra. Sra. de los Remedios,” <a href="http://www.virgenremedios.org/">Virgin Remedios</a>.</li>
+</ol>
+
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation"><!-- Suggested citation code -->
+Katherine Dau. "Fregenal de la Sierra, Badajoz, Extremadura." <em>The Atlantic Current: Mapping the Virgins of Guadalupe and Remedios</em>. . http://localhost:4000/atlanticcurrent/article/2019-03-30-frenegal-de-la-sierra/
+</p>
+    </div>
+</div>
+
+
+<script>
+var images = document.getElementsByClassName("image");
+var caption = document.getElementsByClassName("caption");
+
+for (var i = 0; i < images.length; i++) {
+   	var link = images[i].childNodes[0].src;
+   	images[i].innerHTML = "<a href='" + link + "' data-lightbox=' ' data-title='" + caption[i].innerHTML  + "'>" + images[i].childNodes[0].outerHTML + "</a>";
+}
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+ })
+</script>
+
+   </div>
+  </body>
+</html>

@@ -10,4 +10,4 @@ The Atlantic Current combines an under researched area of art historical and rel
 
 I created the Atlantic Current in winter of 2019 to map locations of patronage to the Virgin of Guadalupe and the Virgin of los Remedios in Mexico and Spain in conjunction with my Art History honors thesis.
 
-This project relies on the work of José A. Martínez Puche, O.P. and Rafael del Olmo Veros, O.A.R. in María, Madre de la Hispanidad, and the guidance of Mackenzie Brooks, Andrea Lepage, and Sydney Bufkin. Please see [Acknowledgements]( http://dauk19.wludci.info/atlanticcurrent/#/credits/) for more information on my sources.
+This project relies on the work of José A. Martínez Puche, O.P. and Rafael del Olmo Veros, O.A.R. in María, Madre de la Hispanidad, and the guidance of Mackenzie Brooks, Andrea Lepage, and Sydney Bufkin. Please see [Acknowledgements]( http://katherinedau.com/atlanticcurrent/#/credits/) for more information on my sources.
